@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
+  <link href="https://joo-pe.github.io/author/joo-pe/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://joo-pe.github.io/" rel="alternate" type="text/html" />
+  <updated>2021-01-09T17:25:04+09:00</updated>
+  <id>https://joo-pe.github.io/author/joo-pe/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">Joo’s Blog | </title>
+  
+
+  
+    <subtitle>Professional Engineer of skill</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">머신러닝</title>
+      <link href="https://joo-pe.github.io/ai-basic" rel="alternate" type="text/html" title="머신러닝" />
+      <published>2021-01-09T16:40:00+09:00</published>
+      <updated>2021-01-09T16:40:00+09:00</updated>
+      <id>https://joo-pe.github.io/ai-basic</id>
+      <content type="html" xml:base="https://joo-pe.github.io/ai-basic">&lt;p&gt;github blog continue&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Joohyung</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="ai" />
+      
+
+      
+        <summary type="html">github blog continue</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">exception 처리</title>
+      <link href="https://joo-pe.github.io/java-basic" rel="alternate" type="text/html" title="exception 처리" />
+      <published>2021-01-09T16:40:00+09:00</published>
+      <updated>2021-01-09T16:40:00+09:00</updated>
+      <id>https://joo-pe.github.io/java-basic</id>
+      <content type="html" xml:base="https://joo-pe.github.io/java-basic">&lt;p&gt;github blog continue&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Joohyung</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="java" />
+      
+
+      
+        <summary type="html">github blog continue</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

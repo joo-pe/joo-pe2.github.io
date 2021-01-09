@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title> - Articles</title>
+    <description>Professional Engineer of skill</description>
+    <link>
+    https://joo-pe.github.io</link>
+    
+      
+      <item>
+        <title>exception 처리</title>
+        
+          <description>&lt;p&gt;github blog continue&lt;/p&gt;
+</description>
+        
+        <pubDate>Sat, 09 Jan 2021 16:40:00 +0900</pubDate>
+        <link>
+        https://joo-pe.github.io/java-basic</link>
+        <guid isPermaLink="true">https://joo-pe.github.io/java-basic</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>머신러닝</title>
+        
+          <description>&lt;p&gt;github blog continue&lt;/p&gt;
+</description>
+        
+        <pubDate>Sat, 09 Jan 2021 16:40:00 +0900</pubDate>
+        <link>
+        https://joo-pe.github.io/ai-basic</link>
+        <guid isPermaLink="true">https://joo-pe.github.io/ai-basic</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Gettysburg Address</title>
+        
+          <description>&lt;p&gt;Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 19 Nov 1863 19:18:00 +0900</pubDate>
+        <link>
+        https://joo-pe.github.io/gettysburg-address</link>
+        <guid isPermaLink="true">https://joo-pe.github.io/gettysburg-address</guid>
+      </item>
+      
+    
+  </channel>
+</rss>
