@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="https://joo-pe.github.io/author/joo-pe/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://joo-pe.github.io/" rel="alternate" type="text/html" />
-  <updated>2021-01-09T17:25:04+09:00</updated>
+  <updated>2021-01-10T07:55:59+09:00</updated>
   <id>https://joo-pe.github.io/author/joo-pe/feed.xml</id>
 
   
@@ -71,7 +71,12 @@
       <published>2021-01-09T16:40:00+09:00</published>
       <updated>2021-01-09T16:40:00+09:00</updated>
       <id>https://joo-pe.github.io/java-basic</id>
-      <content type="html" xml:base="https://joo-pe.github.io/java-basic">&lt;p&gt;github blog continue&lt;/p&gt;</content>
+      <content type="html" xml:base="https://joo-pe.github.io/java-basic">&lt;p&gt;github blog continue&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
 
       
       
@@ -93,6 +98,51 @@
 
       
         <summary type="html">github blog continue</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">rest api</title>
+      <link href="https://joo-pe.github.io/java-control-statement" rel="alternate" type="text/html" title="rest api" />
+      <published>2021-01-09T16:40:00+09:00</published>
+      <updated>2021-01-09T16:40:00+09:00</updated>
+      <id>https://joo-pe.github.io/java-control-statement</id>
+      <content type="html" xml:base="https://joo-pe.github.io/java-control-statement">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;JAVA 강좌 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./java-basic&quot;&gt;Pexception 처리&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./java-control-statement&quot;&gt;rest api &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;rest api 에 대해서 다룹니다.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Joohyung</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="java" />
+      
+
+      
+        <summary type="html">JAVA 강좌 여러 절로 구성되어 있습니다. Pexception 처리 rest api</summary>
       
 
       
