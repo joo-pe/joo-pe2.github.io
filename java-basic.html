@@ -56,13 +56,7 @@
     <meta property="og:site_name" content="Joo's Blog" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="exception 처리" />
-    <meta property="og:description" content="github blog continue
-
-var i;
-const a;
-
-
-" />
+    <meta property="og:description" content="github blog continue --- layout: null --- &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;urlset xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:schemaLocation=&quot;http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd&quot; xmlns=&quot;http://www.sitemaps.org/schemas/sitemap/0.9&quot;&gt; {% for post in site.posts %} &lt;url&gt; &lt;loc&gt;{{ site.url }}{{ post.url }}.html&lt;/loc&gt; {% if post.lastmod == null %} &lt;lastmod&gt;{{ post.date | date_to_xmlschema }}&lt;/lastmod&gt; {% else %} &lt;lastmod&gt;{{ post.lastmod | date_to_xmlschema }}&lt;/lastmod&gt; {% endif %} {%" />
     <meta property="og:url" content="https://joo-pe.github.io/java-basic" />
     <meta property="og:image" content="https://joo-pe.github.io/assets/built/images/python-logo.png" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
@@ -72,13 +66,7 @@ const a;
     <meta property="article:tag" content="Java" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="exception 처리" />
-    <meta name="twitter:description" content="github blog continue
-
-var i;
-const a;
-
-
-" />
+    <meta name="twitter:description" content="github blog continue --- layout: null --- &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;urlset xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:schemaLocation=&quot;http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd&quot; xmlns=&quot;http://www.sitemaps.org/schemas/sitemap/0.9&quot;&gt; {% for post in site.posts %} &lt;url&gt; &lt;loc&gt;{{ site.url }}{{ post.url }}.html&lt;/loc&gt; {% if post.lastmod == null %} &lt;lastmod&gt;{{ post.date | date_to_xmlschema }}&lt;/lastmod&gt; {% else %} &lt;lastmod&gt;{{ post.lastmod | date_to_xmlschema }}&lt;/lastmod&gt; {% endif %} {%" />
     <meta name="twitter:url" content="https://joo-pe.github.io/" />
     <meta name="twitter:image" content="https://joo-pe.github.io/assets/built/images/python-logo.png" />
     <meta name="twitter:label1" content="Written by" />
@@ -110,13 +98,7 @@ const a;
         "@type": "WebPage",
         "@id": "https://joo-pe.github.io/java-basic"
     },
-    "description": "github blog continue
-
-var i;
-const a;
-
-
-"
+    "description": "github blog continue --- layout: null --- &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;urlset xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:schemaLocation=&quot;http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd&quot; xmlns=&quot;http://www.sitemaps.org/schemas/sitemap/0.9&quot;&gt; {% for post in site.posts %} &lt;url&gt; &lt;loc&gt;{{ site.url }}{{ post.url }}.html&lt;/loc&gt; {% if post.lastmod == null %} &lt;lastmod&gt;{{ post.date | date_to_xmlschema }}&lt;/lastmod&gt; {% else %} &lt;lastmod&gt;{{ post.lastmod | date_to_xmlschema }}&lt;/lastmod&gt; {% endif %} {%"
 }
     </script>
 
@@ -212,6 +194,40 @@ into the {body} of the default.hbs template -->
             <section class="post-full-content">
                 <div class="kg-card-markdown">
                     <p>github blog continue</p>
+
+<noscript><pre>---
+layout: null
+---
+
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;urlset xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;
+        xsi:schemaLocation=&quot;http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd&quot;
+        xmlns=&quot;http://www.sitemaps.org/schemas/sitemap/0.9&quot;&gt;
+    {% for post in site.posts %}
+    &lt;url&gt;
+        &lt;loc&gt;{{ site.url }}{{ post.url }}.html&lt;/loc&gt;
+        {% if post.lastmod == null %}
+        &lt;lastmod&gt;{{ post.date | date_to_xmlschema }}&lt;/lastmod&gt;
+        {% else %}
+        &lt;lastmod&gt;{{ post.lastmod | date_to_xmlschema }}&lt;/lastmod&gt;
+        {% endif %}
+
+        {% if post.sitemap.changefreq == null %}
+        &lt;changefreq&gt;weekly&lt;/changefreq&gt;
+        {% else %}
+        &lt;changefreq&gt;{{ post.sitemap.changefreq }}&lt;/changefreq&gt;
+        {% endif %}
+
+        {% if post.sitemap.priority == null %}
+        &lt;priority&gt;0.5&lt;/priority&gt;
+        {% else %}
+        &lt;priority&gt;{{ post.sitemap.priority }}&lt;/priority&gt;
+        {% endif %}
+
+    &lt;/url&gt;
+    {% endfor %}
+&lt;/urlset&gt;</pre></noscript>
+<script src="https://gist.github.com/joo-pe/08fbe8aeef0b79bdb8fbd3f090809fb5.js"> </script>
 
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">i</span><span class="p">;</span>
 <span class="kd">const</span> <span class="nx">a</span><span class="p">;</span>

@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="https://joo-pe.github.io/author/joo-pe/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://joo-pe.github.io/" rel="alternate" type="text/html" />
-  <updated>2021-01-10T10:49:34+09:00</updated>
+  <updated>2021-01-10T12:05:56+09:00</updated>
   <id>https://joo-pe.github.io/author/joo-pe/feed.xml</id>
 
   
@@ -72,6 +72,40 @@
       <updated>2021-01-09T16:40:00+09:00</updated>
       <id>https://joo-pe.github.io/java-basic</id>
       <content type="html" xml:base="https://joo-pe.github.io/java-basic">&lt;p&gt;github blog continue&lt;/p&gt;
+
+&lt;noscript&gt;&lt;pre&gt;---
+layout: null
+---
+
+&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot;?&amp;gt;
+&amp;lt;urlset xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot;
+        xsi:schemaLocation=&amp;quot;http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd&amp;quot;
+        xmlns=&amp;quot;http://www.sitemaps.org/schemas/sitemap/0.9&amp;quot;&amp;gt;
+    {% for post in site.posts %}
+    &amp;lt;url&amp;gt;
+        &amp;lt;loc&amp;gt;{{ site.url }}{{ post.url }}.html&amp;lt;/loc&amp;gt;
+        {% if post.lastmod == null %}
+        &amp;lt;lastmod&amp;gt;{{ post.date | date_to_xmlschema }}&amp;lt;/lastmod&amp;gt;
+        {% else %}
+        &amp;lt;lastmod&amp;gt;{{ post.lastmod | date_to_xmlschema }}&amp;lt;/lastmod&amp;gt;
+        {% endif %}
+
+        {% if post.sitemap.changefreq == null %}
+        &amp;lt;changefreq&amp;gt;weekly&amp;lt;/changefreq&amp;gt;
+        {% else %}
+        &amp;lt;changefreq&amp;gt;{{ post.sitemap.changefreq }}&amp;lt;/changefreq&amp;gt;
+        {% endif %}
+
+        {% if post.sitemap.priority == null %}
+        &amp;lt;priority&amp;gt;0.5&amp;lt;/priority&amp;gt;
+        {% else %}
+        &amp;lt;priority&amp;gt;{{ post.sitemap.priority }}&amp;lt;/priority&amp;gt;
+        {% endif %}
+
+    &amp;lt;/url&amp;gt;
+    {% endfor %}
+&amp;lt;/urlset&amp;gt;&lt;/pre&gt;&lt;/noscript&gt;
+&lt;script src=&quot;https://gist.github.com/joo-pe/08fbe8aeef0b79bdb8fbd3f090809fb5.js&quot;&gt; &lt;/script&gt;
 
 &lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
