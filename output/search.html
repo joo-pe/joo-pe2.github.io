@@ -11,7 +11,7 @@
 
 
 
-    <title>About</title>
+    <title>Search Result</title>
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Styles'n'Scripts -->
@@ -49,31 +49,28 @@
     <!-- This tag outputs SEO meta+structured data and other important settings -->
     <meta name="description" content="Professional Engineer of skill" />
     <link rel="shortcut icon" href="https://joo-pe.github.io/assets/built/images/favicon.jpg" type="image/png" />
-    <link rel="canonical" href="https://joo-pe.github.io/about/" />
+    <link rel="canonical" href="https://joo-pe.github.io/search" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
 
      <!--title below is coming from _includes/dynamic_title-->
     <meta property="og:site_name" content="Joo's Blog" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="About" />
-    <meta property="og:description" content="Back-end Engineer Joo-PE.." />
-    <meta property="og:url" content="https://joo-pe.github.io/about/" />
+    <meta property="og:title" content="Search Result" />
+    <meta property="og:description" content="Professional Engineer of skill" />
+    <meta property="og:url" content="https://joo-pe.github.io/search" />
     <meta property="og:image" content="https://joo-pe.github.io/assets/built/images/blog-cover1.png" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
-    <meta property="article:author" content="https://www.facebook.com/" />
-    <meta property="article:published_time" content="" />
-    <meta property="article:modified_time" content="" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="About" />
-    <meta name="twitter:description" content="Back-end Engineer Joo-PE.." />
+    <meta name="twitter:title" content="Search Result" />
+    <meta name="twitter:description" content="Professional Engineer of skill" />
     <meta name="twitter:url" content="https://joo-pe.github.io/" />
     <meta name="twitter:image" content="https://joo-pe.github.io/assets/built/images/blog-cover1.png" />
     <meta name="twitter:label1" content="Written by" />
     <meta name="twitter:data1" content="Joo's Blog" />
     <meta name="twitter:site" content="@" />
     <meta name="twitter:creator" content="@" />
-    <meta property="og:image:width" content="1400" />
-    <meta property="og:image:height" content="933" />
+    <meta property="og:image:width" content="2000" />
+    <meta property="og:image:height" content="666" />
 
     <script type="application/ld+json">
 {
@@ -84,7 +81,7 @@
         "name": "Joo's Blog",
         "logo": "https://joo-pe.github.io/"
     },
-    "url": "https://joo-pe.github.io/about/",
+    "url": "https://joo-pe.github.io/search",
     "image": {
         "@type": "ImageObject",
         "url": "https://joo-pe.github.io/assets/built/images/blog-cover1.png",
@@ -93,9 +90,9 @@
     },
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://joo-pe.github.io/about/"
+        "@id": "https://joo-pe.github.io/search"
     },
-    "description": "Back-end Engineer Joo-PE.."
+    "description": "Professional Engineer of skill"
 }
     </script>
 
@@ -108,7 +105,7 @@
     </script> -->
 
     <meta name="generator" content="Jekyll 3.6.2" />
-    <link rel="alternate" type="application/rss+xml" title="About" href="/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="Search Result" href="/feed.xml" />
 
 
 </head>
@@ -168,14 +165,62 @@ into the {body} of the default.hbs template -->
         <article class="post-full  post page no-image">
 
             <header class="post-full-header">
-                <h1 class="post-full-title">About</h1>
+                <h1 class="post-full-title">Search Result</h1>
             </header>
 
             
 
             <section class="post-full-content">
-                <p>Back-end Engineer Joo-PE..</p>
+                <form action="/search" method="get" hidden="hidden">
+    <label for="search-box"></label>
+    <input type="text" id="search-box" name="query">
+</form>
 
+<ul class="mylist" id="search-results"></ul>
+
+<script>
+    window.store = {
+    
+    "java-control-statement": {
+        "title": "rest api",
+            "author": "joo-pe",
+            "category": "",
+            "content": "JAVA 강좌 여러 절로 구성되어 있습니다.     Pexception 처리    rest api rest api 에 대해서 다룹니다.var i;const a;",
+        "url": "/java-control-statement"
+    }
+    ,
+    
+    "java-basic": {
+        "title": "exception 처리",
+            "author": "joo-pe",
+            "category": "",
+            "content": "github blog continue---layout: null---&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;urlset xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;        xsi:schemaLocation=&quot;http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd&quot;        xmlns=&quot;http://www.sitemaps.org/schemas/sitemap/0.9&quot;&gt;    {% for post in site.posts %}    &lt;url&gt;        &lt;loc&gt;{{ site.url }}{{ post.url }}.html&lt;/loc&gt;        {% if post.lastmod == null %}        &lt;lastmod&gt;{{ post.date | date_to_xmlschema }}&lt;/lastmod&gt;        {% else %}        &lt;lastmod&gt;{{ post.lastmod | date_to_xmlschema }}&lt;/lastmod&gt;        {% endif %}        {% if post.sitemap.changefreq == null %}        &lt;changefreq&gt;weekly&lt;/changefreq&gt;        {% else %}        &lt;changefreq&gt;{{ post.sitemap.changefreq }}&lt;/changefreq&gt;        {% endif %}        {% if post.sitemap.priority == null %}        &lt;priority&gt;0.5&lt;/priority&gt;        {% else %}        &lt;priority&gt;{{ post.sitemap.priority }}&lt;/priority&gt;        {% endif %}    &lt;/url&gt;    {% endfor %}&lt;/urlset&gt;var i;const a;",
+        "url": "/java-basic"
+    }
+    ,
+    
+    "ai-basic": {
+        "title": "머신러닝",
+            "author": "joo-pe",
+            "category": "",
+            "content": "github blog continue",
+        "url": "/ai-basic"
+    }
+    ,
+    
+    "gettysburg-address": {
+        "title": "Gettysburg Address",
+            "author": "abraham",
+            "category": "",
+            "content": "Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure. We are met on a great battle-field of that war. We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live. It is altogether fitting and proper that we should do this.But, in a larger sense, we can not dedicate-we can not consecrate-we can not hallow-this ground. The brave men, living and dead, who struggled here, have consecrated it, far above our poor power to add or detract. The world will little note, nor long remember what we say here, but it can never forget what they did here. It is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced. It is rather for us to be here dedicated to the great task remaining before us-that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion-that we here highly resolve that these dead shall not have died in vain-that this nation, under God, shall have a new birth of freedom-and that government of the people, by the people, for the people shall not perish from the earth.",
+        "url": "/gettysburg-address"
+    }
+    
+    
+    };
+</script>
+<script src="assets/js/lunr.js"></script>
+<script src="assets/js/search.js"></script>
             </section>
 
         </article>
