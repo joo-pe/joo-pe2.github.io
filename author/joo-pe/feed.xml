@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="https://joo-pe.github.io/author/joo-pe/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://joo-pe.github.io/" rel="alternate" type="text/html" />
-  <updated>2021-01-10T15:44:23+09:00</updated>
+  <updated>2021-01-11T18:32:02+09:00</updated>
   <id>https://joo-pe.github.io/author/joo-pe/feed.xml</id>
 
   
@@ -16,7 +16,7 @@
   
 
   
-    <subtitle>Professional Engineer of skill</subtitle>
+    <subtitle>Professional Engineer</subtitle>
   
 
   
@@ -72,6 +72,34 @@
       <updated>2021-01-09T16:40:00+09:00</updated>
       <id>https://joo-pe.github.io/java-basic</id>
       <content type="html" xml:base="https://joo-pe.github.io/java-basic">&lt;p&gt;github blog continue&lt;/p&gt;
+
+&lt;h1 id=&quot;github-블로그-시작&quot;&gt;Github 블로그 시작&lt;/h1&gt;
+
+&lt;h2 id=&quot;사용된-기술&quot;&gt;사용된 기술&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Jekyll : Liquid template 기반의 전반적인 블록그 생성을 위한 프로그램&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Ruby : 간결함과 생산성을 강조한 동적인 오픈소스 프로그래밍 언어&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Ghost : publishing platform 의 Jekyll 버전&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Travis-CI : 자동 컴파일, 배포을 위한 툴&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;bundler : ruby application 개발을 위한 일관된 환경 제공&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Jasper2 : 페이지 Theme를 위한 프로그래밍&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;noscript&gt;&lt;pre&gt;---
 layout: null
