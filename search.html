@@ -182,10 +182,10 @@ into the {body} of the default.hbs template -->
     window.store = {
     
     "java-control-statement": {
-        "title": "rest api",
+        "title": "Git Rebase , Revert , Reset",
             "author": "joo-pe",
             "category": "",
-            "content": "JAVA 강좌 여러 절로 구성되어 있습니다.     Pexception 처리    rest api rest api 에 대해서 다룹니다.var i;const a;",
+            "content": "Git Rebase병합 필요할 때브랜치 합치는 방법은 두가지가 있다. “Merge” , “Rebase”Rebase를 하든지, Merge를 하든지 최종 결과물은 같고 커밋 히스토리만 다르다는 것이 중요하다. Rebase 의 경우는 브랜치의 변경사항을 순서대로 다른 브랜치에 적용하면서 합치고 Merge 의 경우는 두 브랜치의 최종결과만을 가지고 합친다.작업 한 commit 내용을 지울 때는 revert를 이용한다. 하지만 동시 다발적으로 작업을 할 때는 각각의 작업한 것에 대해 반영을 해 줘야 하는 데 이 때 사용하는 것이rebase 이다. rebase 는 로컬에서 작업이 이루어진다.rebase 명령로 한 브랜치에서 변경된 사항을 다른 브런치에 적용할 수 있다.git rebase -i master을 하게 되면 commit들을 하나로 묶어주는데 이 작업을 squash 라고 한다.rebase시  충돌 발생충돌이 발생하면 충돌 부분을 수정한 후에 commit 이 아니라 rebase 명령에 –continue옵션을 지정하여 실행한다.git add myfile.txtgit rebase --continue만약 rebase 자체를 취소하려면 –abort 옵션을 지정한다.Git revert이전 커밋 내역을 그대로 남겨둔 채 새로운 커밋을 생성한다.따라서 다른 사람과 공유하는 브랜치에서 이전 커밋을 수정하고 싶을 때는 revert 를 사용하는게 좋다.그래야 커밋 히스토리가 바뀌지 않아 충돌이 발생하지 않는다.Git resetgit reset --1.soft: commit된 파일들을 staging area로 돌려놓는다. — commit 하기 전 상태2.mixed(default): commit된 파일들을 working directory로 돌려놓는다. — add 하기 전 상태3.hard: commit된 파일들 중 tracked 파일들을 working directory에서 삭제한다. (단, Untracked 파일은 Untracked로 남는다.)",
         "url": "/java-control-statement"
     }
     ,

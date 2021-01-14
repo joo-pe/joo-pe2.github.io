@@ -1,15 +1,51 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="https://joo-pe.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://joo-pe.github.io/" rel="alternate" type="text/html" /><updated>2021-01-11T18:32:02+09:00</updated><id>https://joo-pe.github.io/</id><title type="html">Joo’s Blog</title><subtitle>Professional Engineer</subtitle><entry><title type="html">rest api</title><link href="https://joo-pe.github.io/java-control-statement" rel="alternate" type="text/html" title="rest api" /><published>2021-01-09T16:40:00+09:00</published><updated>2021-01-09T16:40:00+09:00</updated><id>https://joo-pe.github.io/java-control-statement</id><content type="html" xml:base="https://joo-pe.github.io/java-control-statement">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;JAVA 강좌 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./java-basic&quot;&gt;Pexception 처리&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./java-control-statement&quot;&gt;rest api &lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="https://joo-pe.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://joo-pe.github.io/" rel="alternate" type="text/html" /><updated>2021-01-14T12:21:26+09:00</updated><id>https://joo-pe.github.io/</id><title type="html">Joo’s Blog</title><subtitle>Professional Engineer</subtitle><entry><title type="html">Git Rebase , Revert , Reset</title><link href="https://joo-pe.github.io/java-control-statement" rel="alternate" type="text/html" title="Git Rebase , Revert , Reset" /><published>2021-01-09T16:40:00+09:00</published><updated>2021-01-09T16:40:00+09:00</updated><id>https://joo-pe.github.io/java-control-statement</id><content type="html" xml:base="https://joo-pe.github.io/java-control-statement">&lt;h1 id=&quot;git-rebase&quot;&gt;Git Rebase&lt;/h1&gt;
 
-&lt;p&gt;rest api 에 대해서 다룹니다.&lt;/p&gt;
+&lt;h2 id=&quot;병합-필요할-때&quot;&gt;병합 필요할 때&lt;/h2&gt;
 
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;p&gt;브랜치 합치는 방법은 두가지가 있다. 
+“Merge” , “Rebase”
+Rebase를 하든지, Merge를 하든지 최종 결과물은 같고 커밋 히스토리만 다르다는 것이 중요하다. 
+Rebase 의 경우는 브랜치의 변경사항을 순서대로 다른 브랜치에 적용하면서 합치고 Merge 의 경우는 두 브랜치의 최종결과만을 가지고 합친다.&lt;/p&gt;
 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Joohyung</name></author><category term="java" /><summary type="html">JAVA 강좌 여러 절로 구성되어 있습니다. Pexception 처리 rest api</summary></entry><entry><title type="html">exception 처리</title><link href="https://joo-pe.github.io/java-basic" rel="alternate" type="text/html" title="exception 처리" /><published>2021-01-09T16:40:00+09:00</published><updated>2021-01-09T16:40:00+09:00</updated><id>https://joo-pe.github.io/java-basic</id><content type="html" xml:base="https://joo-pe.github.io/java-basic">&lt;p&gt;github blog continue&lt;/p&gt;
+&lt;p&gt;작업 한 commit 내용을 지울 때는 revert를 이용한다. 
+하지만 동시 다발적으로 작업을 할 때는 각각의 작업한 것에 대해 반영을 해 줘야 하는 데 이 때 사용하는 것이
+rebase 이다. rebase 는 로컬에서 작업이 이루어진다.&lt;/p&gt;
+
+&lt;p&gt;rebase 명령로 한 브랜치에서 변경된 사항을 다른 브런치에 적용할 수 있다.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git rebase -i master
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;을 하게 되면 commit들을 하나로 묶어주는데 이 작업을 squash 라고 한다.&lt;/p&gt;
+
+&lt;h2 id=&quot;rebase시--충돌-발생&quot;&gt;rebase시  충돌 발생&lt;/h2&gt;
+
+&lt;p&gt;충돌이 발생하면 충돌 부분을 수정한 후에 commit 이 아니라 rebase 명령에 –continue옵션을 지정하여 실행한다.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git add myfile.txt
+git rebase --continue
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;만약 rebase 자체를 취소하려면 –abort 옵션을 지정한다.&lt;/p&gt;
+
+&lt;h1 id=&quot;git-revert&quot;&gt;Git revert&lt;/h1&gt;
+
+&lt;p&gt;이전 커밋 내역을 그대로 남겨둔 채 새로운 커밋을 생성한다.&lt;/p&gt;
+
+&lt;p&gt;따라서 다른 사람과 공유하는 브랜치에서 이전 커밋을 수정하고 싶을 때는 revert 를 사용하는게 좋다.&lt;/p&gt;
+
+&lt;p&gt;그래야 커밋 히스토리가 바뀌지 않아 충돌이 발생하지 않는다.&lt;/p&gt;
+
+&lt;h1 id=&quot;git-reset&quot;&gt;Git reset&lt;/h1&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git reset --
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;1.soft: commit된 파일들을 staging area로 돌려놓는다. — commit 하기 전 상태&lt;/p&gt;
+
+&lt;p&gt;2.mixed(default): commit된 파일들을 working directory로 돌려놓는다. — add 하기 전 상태&lt;/p&gt;
+
+&lt;p&gt;3.hard: commit된 파일들 중 tracked 파일들을 working directory에서 삭제한다. (단, Untracked 파일은 Untracked로 남는다.)&lt;/p&gt;</content><author><name>Joohyung</name></author><category term="java" /><summary type="html">Git Rebase</summary></entry><entry><title type="html">exception 처리</title><link href="https://joo-pe.github.io/java-basic" rel="alternate" type="text/html" title="exception 처리" /><published>2021-01-09T16:40:00+09:00</published><updated>2021-01-09T16:40:00+09:00</updated><id>https://joo-pe.github.io/java-basic</id><content type="html" xml:base="https://joo-pe.github.io/java-basic">&lt;p&gt;github blog continue&lt;/p&gt;
 
 &lt;h1 id=&quot;github-블로그-시작&quot;&gt;Github 블로그 시작&lt;/h1&gt;
 

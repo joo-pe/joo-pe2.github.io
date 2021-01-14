@@ -8,13 +8,9 @@
     
       
       <item>
-        <title>rest api</title>
+        <title>Git Rebase , Revert , Reset</title>
         
-          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;JAVA 강좌 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./java-basic&quot;&gt;Pexception 처리&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./java-control-statement&quot;&gt;rest api &lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+          <description>&lt;h1 id=&quot;git-rebase&quot;&gt;Git Rebase&lt;/h1&gt;
 
 </description>
         
