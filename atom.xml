@@ -4,7 +4,111 @@
     <title> - Articles</title>
     <description>Professional Engineer</description>
     <link>
-    http://localhost:4000</link>
+    https://joo-pe.github.io</link>
+    
+      
+      <item>
+        <title>Block chain</title>
+        
+          <description>&lt;p&gt;블록체인 합의알고리즘으로 진행된다.&lt;/p&gt;
+</description>
+        
+        <pubDate>Sat, 09 Jan 2021 16:40:00 +0900</pubDate>
+        <link>
+        https://joo-pe.github.io/license-2</link>
+        <guid isPermaLink="true">https://joo-pe.github.io/license-2</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>SDN</title>
+        
+          <description>&lt;p&gt;github blog continue&lt;/p&gt;
+</description>
+        
+        <pubDate>Sat, 09 Jan 2021 16:40:00 +0900</pubDate>
+        <link>
+        https://joo-pe.github.io/license-1</link>
+        <guid isPermaLink="true">https://joo-pe.github.io/license-1</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>영상처리</title>
+        
+          <description>&lt;p&gt;github blog continue&lt;/p&gt;
+</description>
+        
+        <pubDate>Sat, 09 Jan 2021 16:40:00 +0900</pubDate>
+        <link>
+        https://joo-pe.github.io/itstory-2</link>
+        <guid isPermaLink="true">https://joo-pe.github.io/itstory-2</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>SDN</title>
+        
+          <description>&lt;p&gt;github blog continue&lt;/p&gt;
+</description>
+        
+        <pubDate>Sat, 09 Jan 2021 16:40:00 +0900</pubDate>
+        <link>
+        https://joo-pe.github.io/itstory-1</link>
+        <guid isPermaLink="true">https://joo-pe.github.io/itstory-1</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>rest api</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;develop 관련 다음과 같은 내용을 볼 수 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./develop-1&quot;&gt;exception 처리&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./develop-2&quot;&gt;rest api &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Sat, 09 Jan 2021 16:40:00 +0900</pubDate>
+        <link>
+        https://joo-pe.github.io/develop-2</link>
+        <guid isPermaLink="true">https://joo-pe.github.io/develop-2</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>exception 처리</title>
+        
+          <description>&lt;p&gt;github blog continue&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sat, 09 Jan 2021 16:40:00 +0900</pubDate>
+        <link>
+        https://joo-pe.github.io/develop-1</link>
+        <guid isPermaLink="true">https://joo-pe.github.io/develop-1</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>인공지능모형</title>
+        
+          <description>&lt;p&gt;모형의 알고리즘은 지도학습, 비지도학습 , 강화학습으로 나눌수 있다.&lt;/p&gt;
+</description>
+        
+        <pubDate>Sat, 09 Jan 2021 16:40:00 +0900</pubDate>
+        <link>
+        https://joo-pe.github.io/ai-2</link>
+        <guid isPermaLink="true">https://joo-pe.github.io/ai-2</guid>
+      </item>
+      
     
       
       <item>
@@ -15,8 +119,8 @@
         
         <pubDate>Sat, 09 Jan 2021 16:40:00 +0900</pubDate>
         <link>
-        http://localhost:4000/ai-basic</link>
-        <guid isPermaLink="true">http://localhost:4000/ai-basic</guid>
+        https://joo-pe.github.io/ai-1</link>
+        <guid isPermaLink="true">https://joo-pe.github.io/ai-1</guid>
       </item>
       
     
@@ -30,8 +134,8 @@
         
         <pubDate>Thu, 19 Nov 1863 19:18:00 +0900</pubDate>
         <link>
-        http://localhost:4000/gettysburg-address</link>
-        <guid isPermaLink="true">http://localhost:4000/gettysburg-address</guid>
+        https://joo-pe.github.io/gettysburg-address</link>
+        <guid isPermaLink="true">https://joo-pe.github.io/gettysburg-address</guid>
       </item>
       
     

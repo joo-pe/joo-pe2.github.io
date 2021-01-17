@@ -4,7 +4,7 @@
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
-        <loc>http://localhost:4000/ai-basic.html</loc>
+        <loc>https://joo-pe.github.io/license-2.html</loc>
         
         <lastmod>2021-01-09T16:40:00+09:00</lastmod>
         
@@ -20,7 +20,119 @@
     </url>
     
     <url>
-        <loc>http://localhost:4000/gettysburg-address.html</loc>
+        <loc>https://joo-pe.github.io/license-1.html</loc>
+        
+        <lastmod>2021-01-09T16:40:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>https://joo-pe.github.io/itstory-2.html</loc>
+        
+        <lastmod>2021-01-09T16:40:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>https://joo-pe.github.io/itstory-1.html</loc>
+        
+        <lastmod>2021-01-09T16:40:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>https://joo-pe.github.io/develop-2.html</loc>
+        
+        <lastmod>2021-01-09T16:40:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>https://joo-pe.github.io/develop-1.html</loc>
+        
+        <lastmod>2021-01-09T16:40:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>https://joo-pe.github.io/ai-2.html</loc>
+        
+        <lastmod>2021-01-09T16:40:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>https://joo-pe.github.io/ai-1.html</loc>
+        
+        <lastmod>2021-01-09T16:40:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>https://joo-pe.github.io/gettysburg-address.html</loc>
         
         <lastmod>1863-11-19T19:18:00+09:00</lastmod>
         

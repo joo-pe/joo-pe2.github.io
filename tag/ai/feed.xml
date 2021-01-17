@@ -2,10 +2,10 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
-  <link href="http://localhost:4000/tag/ai/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2021-01-17T17:27:49+09:00</updated>
-  <id>http://localhost:4000/tag/ai/feed.xml</id>
+  <link href="https://joo-pe.github.io/tag/ai/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://joo-pe.github.io/" rel="alternate" type="text/html" />
+  <updated>2021-01-17T20:39:38+09:00</updated>
+  <id>https://joo-pe.github.io/tag/ai/feed.xml</id>
 
   
   
@@ -32,12 +32,12 @@
 
   
     <entry>
-      <title type="html">머신러닝</title>
-      <link href="http://localhost:4000/ai-basic" rel="alternate" type="text/html" title="머신러닝" />
+      <title type="html">인공지능모형</title>
+      <link href="https://joo-pe.github.io/ai-2" rel="alternate" type="text/html" title="인공지능모형" />
       <published>2021-01-09T16:40:00+09:00</published>
       <updated>2021-01-09T16:40:00+09:00</updated>
-      <id>http://localhost:4000/ai-basic</id>
-      <content type="html" xml:base="http://localhost:4000/ai-basic">&lt;p&gt;github blog continue&lt;/p&gt;</content>
+      <id>https://joo-pe.github.io/ai-2</id>
+      <content type="html" xml:base="https://joo-pe.github.io/ai-2">&lt;p&gt;모형의 알고리즘은 지도학습, 비지도학습 , 강화학습으로 나눌수 있다.&lt;/p&gt;</content>
 
       
       
@@ -46,7 +46,41 @@
       
 
       <author>
-          <name>Joohyung</name>
+          <name>Joohyung Park</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="ai" />
+      
+
+      
+        <summary type="html">모형의 알고리즘은 지도학습, 비지도학습 , 강화학습으로 나눌수 있다.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">머신러닝</title>
+      <link href="https://joo-pe.github.io/ai-1" rel="alternate" type="text/html" title="머신러닝" />
+      <published>2021-01-09T16:40:00+09:00</published>
+      <updated>2021-01-09T16:40:00+09:00</updated>
+      <id>https://joo-pe.github.io/ai-1</id>
+      <content type="html" xml:base="https://joo-pe.github.io/ai-1">&lt;p&gt;github blog continue&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Joohyung Park</name>
         
         
       </author>

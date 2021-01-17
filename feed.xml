@@ -1,4 +1,56 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-01-17T17:27:49+09:00</updated><id>http://localhost:4000/</id><title type="html">Joo’s Blog</title><subtitle>Professional Engineer</subtitle><entry><title type="html">머신러닝</title><link href="http://localhost:4000/ai-basic" rel="alternate" type="text/html" title="머신러닝" /><published>2021-01-09T16:40:00+09:00</published><updated>2021-01-09T16:40:00+09:00</updated><id>http://localhost:4000/ai-basic</id><content type="html" xml:base="http://localhost:4000/ai-basic">&lt;p&gt;github blog continue&lt;/p&gt;</content><author><name>Joohyung</name></author><category term="ai" /><summary type="html">github blog continue</summary></entry><entry><title type="html">Gettysburg Address</title><link href="http://localhost:4000/gettysburg-address" rel="alternate" type="text/html" title="Gettysburg Address" /><published>1863-11-19T19:18:00+09:00</published><updated>1863-11-19T19:18:00+09:00</updated><id>http://localhost:4000/gettysburg-address</id><content type="html" xml:base="http://localhost:4000/gettysburg-address">&lt;p&gt;Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="https://joo-pe.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://joo-pe.github.io/" rel="alternate" type="text/html" /><updated>2021-01-17T20:39:38+09:00</updated><id>https://joo-pe.github.io/</id><title type="html">Joo’s Blog</title><subtitle>Professional Engineer</subtitle><entry><title type="html">Block chain</title><link href="https://joo-pe.github.io/license-2" rel="alternate" type="text/html" title="Block chain" /><published>2021-01-09T16:40:00+09:00</published><updated>2021-01-09T16:40:00+09:00</updated><id>https://joo-pe.github.io/license-2</id><content type="html" xml:base="https://joo-pe.github.io/license-2">&lt;p&gt;블록체인 합의알고리즘으로 진행된다.&lt;/p&gt;</content><author><name>Joohyung Park</name></author><category term="license" /><summary type="html">블록체인 합의알고리즘으로 진행된다.</summary></entry><entry><title type="html">SDN</title><link href="https://joo-pe.github.io/license-1" rel="alternate" type="text/html" title="SDN" /><published>2021-01-09T16:40:00+09:00</published><updated>2021-01-09T16:40:00+09:00</updated><id>https://joo-pe.github.io/license-1</id><content type="html" xml:base="https://joo-pe.github.io/license-1">&lt;p&gt;github blog continue&lt;/p&gt;</content><author><name>Joohyung Park</name></author><category term="license" /><summary type="html">github blog continue</summary></entry><entry><title type="html">영상처리</title><link href="https://joo-pe.github.io/itstory-2" rel="alternate" type="text/html" title="영상처리" /><published>2021-01-09T16:40:00+09:00</published><updated>2021-01-09T16:40:00+09:00</updated><id>https://joo-pe.github.io/itstory-2</id><content type="html" xml:base="https://joo-pe.github.io/itstory-2">&lt;p&gt;github blog continue&lt;/p&gt;</content><author><name>Joohyung Park</name></author><category term="itstory" /><summary type="html">github blog continue</summary></entry><entry><title type="html">SDN</title><link href="https://joo-pe.github.io/itstory-1" rel="alternate" type="text/html" title="SDN" /><published>2021-01-09T16:40:00+09:00</published><updated>2021-01-09T16:40:00+09:00</updated><id>https://joo-pe.github.io/itstory-1</id><content type="html" xml:base="https://joo-pe.github.io/itstory-1">&lt;p&gt;github blog continue&lt;/p&gt;</content><author><name>Joohyung Park</name></author><category term="itstory" /><summary type="html">github blog continue</summary></entry><entry><title type="html">rest api</title><link href="https://joo-pe.github.io/develop-2" rel="alternate" type="text/html" title="rest api" /><published>2021-01-09T16:40:00+09:00</published><updated>2021-01-09T16:40:00+09:00</updated><id>https://joo-pe.github.io/develop-2</id><content type="html" xml:base="https://joo-pe.github.io/develop-2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;develop 관련 다음과 같은 내용을 볼 수 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./develop-1&quot;&gt;exception 처리&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./develop-2&quot;&gt;rest api &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;rest api 에 대해서 다룹니다.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Joohyung Park</name></author><category term="develop" /><summary type="html">develop 관련 다음과 같은 내용을 볼 수 있습니다. exception 처리 rest api</summary></entry><entry><title type="html">exception 처리</title><link href="https://joo-pe.github.io/develop-1" rel="alternate" type="text/html" title="exception 처리" /><published>2021-01-09T16:40:00+09:00</published><updated>2021-01-09T16:40:00+09:00</updated><id>https://joo-pe.github.io/develop-1</id><content type="html" xml:base="https://joo-pe.github.io/develop-1">&lt;p&gt;github blog continue&lt;/p&gt;
+
+&lt;noscript&gt;&lt;pre&gt;---
+layout: null
+---
+
+&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot;?&amp;gt;
+&amp;lt;urlset xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot;
+        xsi:schemaLocation=&amp;quot;http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd&amp;quot;
+        xmlns=&amp;quot;http://www.sitemaps.org/schemas/sitemap/0.9&amp;quot;&amp;gt;
+    {% for post in site.posts %}
+    &amp;lt;url&amp;gt;
+        &amp;lt;loc&amp;gt;{{ site.url }}{{ post.url }}.html&amp;lt;/loc&amp;gt;
+        {% if post.lastmod == null %}
+        &amp;lt;lastmod&amp;gt;{{ post.date | date_to_xmlschema }}&amp;lt;/lastmod&amp;gt;
+        {% else %}
+        &amp;lt;lastmod&amp;gt;{{ post.lastmod | date_to_xmlschema }}&amp;lt;/lastmod&amp;gt;
+        {% endif %}
+
+        {% if post.sitemap.changefreq == null %}
+        &amp;lt;changefreq&amp;gt;weekly&amp;lt;/changefreq&amp;gt;
+        {% else %}
+        &amp;lt;changefreq&amp;gt;{{ post.sitemap.changefreq }}&amp;lt;/changefreq&amp;gt;
+        {% endif %}
+
+        {% if post.sitemap.priority == null %}
+        &amp;lt;priority&amp;gt;0.5&amp;lt;/priority&amp;gt;
+        {% else %}
+        &amp;lt;priority&amp;gt;{{ post.sitemap.priority }}&amp;lt;/priority&amp;gt;
+        {% endif %}
+
+    &amp;lt;/url&amp;gt;
+    {% endfor %}
+&amp;lt;/urlset&amp;gt;&lt;/pre&gt;&lt;/noscript&gt;
+&lt;script src=&quot;https://gist.github.com/joo-pe/08fbe8aeef0b79bdb8fbd3f090809fb5.js&quot;&gt; &lt;/script&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/built/images/ai/ai-1.png&quot; alt=&quot;img_1.png&quot; /&gt;&lt;/p&gt;</content><author><name>Joohyung Park</name></author><category term="develop" /><summary type="html">github blog continue</summary></entry><entry><title type="html">인공지능모형</title><link href="https://joo-pe.github.io/ai-2" rel="alternate" type="text/html" title="인공지능모형" /><published>2021-01-09T16:40:00+09:00</published><updated>2021-01-09T16:40:00+09:00</updated><id>https://joo-pe.github.io/ai-2</id><content type="html" xml:base="https://joo-pe.github.io/ai-2">&lt;p&gt;모형의 알고리즘은 지도학습, 비지도학습 , 강화학습으로 나눌수 있다.&lt;/p&gt;</content><author><name>Joohyung Park</name></author><category term="ai" /><summary type="html">모형의 알고리즘은 지도학습, 비지도학습 , 강화학습으로 나눌수 있다.</summary></entry><entry><title type="html">머신러닝</title><link href="https://joo-pe.github.io/ai-1" rel="alternate" type="text/html" title="머신러닝" /><published>2021-01-09T16:40:00+09:00</published><updated>2021-01-09T16:40:00+09:00</updated><id>https://joo-pe.github.io/ai-1</id><content type="html" xml:base="https://joo-pe.github.io/ai-1">&lt;p&gt;github blog continue&lt;/p&gt;</content><author><name>Joohyung Park</name></author><category term="ai" /><summary type="html">github blog continue</summary></entry><entry><title type="html">Gettysburg Address</title><link href="https://joo-pe.github.io/gettysburg-address" rel="alternate" type="text/html" title="Gettysburg Address" /><published>1863-11-19T19:18:00+09:00</published><updated>1863-11-19T19:18:00+09:00</updated><id>https://joo-pe.github.io/gettysburg-address</id><content type="html" xml:base="https://joo-pe.github.io/gettysburg-address">&lt;p&gt;Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.&lt;/p&gt;
 
 &lt;p&gt;Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure. We are met on a great battle-field of that war. We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live. It is altogether fitting and proper that we should do this.&lt;/p&gt;
 
