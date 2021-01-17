@@ -4,37 +4,7 @@
     <title> - Articles</title>
     <description>Professional Engineer</description>
     <link>
-    https://joo-pe.github.io</link>
-    
-      
-      <item>
-        <title>Git Rebase , Revert , Reset</title>
-        
-          <description>&lt;h1 id=&quot;git-rebase&quot;&gt;Git Rebase&lt;/h1&gt;
-
-</description>
-        
-        <pubDate>Sat, 09 Jan 2021 16:40:00 +0900</pubDate>
-        <link>
-        https://joo-pe.github.io/java-control-statement</link>
-        <guid isPermaLink="true">https://joo-pe.github.io/java-control-statement</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>exception 처리</title>
-        
-          <description>&lt;p&gt;github blog continue&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Sat, 09 Jan 2021 16:40:00 +0900</pubDate>
-        <link>
-        https://joo-pe.github.io/java-basic</link>
-        <guid isPermaLink="true">https://joo-pe.github.io/java-basic</guid>
-      </item>
-      
+    http://localhost:4000</link>
     
       
       <item>
@@ -45,8 +15,8 @@
         
         <pubDate>Sat, 09 Jan 2021 16:40:00 +0900</pubDate>
         <link>
-        https://joo-pe.github.io/ai-basic</link>
-        <guid isPermaLink="true">https://joo-pe.github.io/ai-basic</guid>
+        http://localhost:4000/ai-basic</link>
+        <guid isPermaLink="true">http://localhost:4000/ai-basic</guid>
       </item>
       
     
@@ -60,8 +30,8 @@
         
         <pubDate>Thu, 19 Nov 1863 19:18:00 +0900</pubDate>
         <link>
-        https://joo-pe.github.io/gettysburg-address</link>
-        <guid isPermaLink="true">https://joo-pe.github.io/gettysburg-address</guid>
+        http://localhost:4000/gettysburg-address</link>
+        <guid isPermaLink="true">http://localhost:4000/gettysburg-address</guid>
       </item>
       
     

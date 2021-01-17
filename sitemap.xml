@@ -4,7 +4,7 @@
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
-        <loc>https://joo-pe.github.io/java-control-statement.html</loc>
+        <loc>http://localhost:4000/ai-basic.html</loc>
         
         <lastmod>2021-01-09T16:40:00+09:00</lastmod>
         
@@ -20,39 +20,7 @@
     </url>
     
     <url>
-        <loc>https://joo-pe.github.io/java-basic.html</loc>
-        
-        <lastmod>2021-01-09T16:40:00+09:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>https://joo-pe.github.io/ai-basic.html</loc>
-        
-        <lastmod>2021-01-09T16:40:00+09:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>https://joo-pe.github.io/gettysburg-address.html</loc>
+        <loc>http://localhost:4000/gettysburg-address.html</loc>
         
         <lastmod>1863-11-19T19:18:00+09:00</lastmod>
         

@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://joo-pe.github.io/sitemap.xml

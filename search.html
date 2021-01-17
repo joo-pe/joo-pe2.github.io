@@ -48,8 +48,8 @@
     
     <!-- This tag outputs SEO meta+structured data and other important settings -->
     <meta name="description" content="Professional Engineer" />
-    <link rel="shortcut icon" href="https://joo-pe.github.io/assets/built/images/favicon.jpg" type="image/png" />
-    <link rel="canonical" href="https://joo-pe.github.io/search" />
+    <link rel="shortcut icon" href="http://localhost:4000/assets/built/images/favicon-16x16.png" type="image/png" />
+    <link rel="canonical" href="http://localhost:4000/search" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
 
      <!--title below is coming from _includes/dynamic_title-->
@@ -57,14 +57,14 @@
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Search Result" />
     <meta property="og:description" content="Professional Engineer" />
-    <meta property="og:url" content="https://joo-pe.github.io/search" />
-    <meta property="og:image" content="https://joo-pe.github.io/assets/built/images/blog-cover1.png" />
+    <meta property="og:url" content="http://localhost:4000/search" />
+    <meta property="og:image" content="http://localhost:4000/assets/built/images/laptop-5842509.jpg" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Search Result" />
     <meta name="twitter:description" content="Professional Engineer" />
-    <meta name="twitter:url" content="https://joo-pe.github.io/" />
-    <meta name="twitter:image" content="https://joo-pe.github.io/assets/built/images/blog-cover1.png" />
+    <meta name="twitter:url" content="http://localhost:4000/" />
+    <meta name="twitter:image" content="http://localhost:4000/assets/built/images/laptop-5842509.jpg" />
     <meta name="twitter:label1" content="Written by" />
     <meta name="twitter:data1" content="Joo's Blog" />
     <meta name="twitter:site" content="@" />
@@ -79,18 +79,18 @@
     "publisher": {
         "@type": "Organization",
         "name": "Joo's Blog",
-        "logo": "https://joo-pe.github.io/"
+        "logo": "http://localhost:4000/"
     },
-    "url": "https://joo-pe.github.io/search",
+    "url": "http://localhost:4000/search",
     "image": {
         "@type": "ImageObject",
-        "url": "https://joo-pe.github.io/assets/built/images/blog-cover1.png",
+        "url": "http://localhost:4000/assets/built/images/laptop-5842509.jpg",
         "width": 2000,
         "height": 666
     },
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://joo-pe.github.io/search"
+        "@id": "http://localhost:4000/search"
     },
     "description": "Professional Engineer"
 }
@@ -124,7 +124,7 @@ into the {body} of the default.hbs template -->
     <div class="site-nav-left">
         
             
-                <a class="site-nav-logo" href="https://joo-pe.github.io/">Joo's Blog</a>
+                <a class="site-nav-logo" href="http://localhost:4000/">Joo's Blog</a>
             
         
         
@@ -181,24 +181,6 @@ into the {body} of the default.hbs template -->
 <script>
     window.store = {
     
-    "java-control-statement": {
-        "title": "Git Rebase , Revert , Reset",
-            "author": "joo-pe",
-            "category": "",
-            "content": "Git Rebase병합 필요할 때브랜치 합치는 방법은 두가지가 있다. “Merge” , “Rebase”Rebase를 하든지, Merge를 하든지 최종 결과물은 같고 커밋 히스토리만 다르다는 것이 중요하다. Rebase 의 경우는 브랜치의 변경사항을 순서대로 다른 브랜치에 적용하면서 합치고 Merge 의 경우는 두 브랜치의 최종결과만을 가지고 합친다.작업 한 commit 내용을 지울 때는 revert를 이용한다. 하지만 동시 다발적으로 작업을 할 때는 각각의 작업한 것에 대해 반영을 해 줘야 하는 데 이 때 사용하는 것이rebase 이다. rebase 는 로컬에서 작업이 이루어진다.rebase 명령로 한 브랜치에서 변경된 사항을 다른 브런치에 적용할 수 있다.git rebase -i master을 하게 되면 commit들을 하나로 묶어주는데 이 작업을 squash 라고 한다.rebase시  충돌 발생충돌이 발생하면 충돌 부분을 수정한 후에 commit 이 아니라 rebase 명령에 –continue옵션을 지정하여 실행한다.git add myfile.txtgit rebase --continue만약 rebase 자체를 취소하려면 –abort 옵션을 지정한다.Git revert이전 커밋 내역을 그대로 남겨둔 채 새로운 커밋을 생성한다.따라서 다른 사람과 공유하는 브랜치에서 이전 커밋을 수정하고 싶을 때는 revert 를 사용하는게 좋다.그래야 커밋 히스토리가 바뀌지 않아 충돌이 발생하지 않는다.Git resetgit reset --1.soft: commit된 파일들을 staging area로 돌려놓는다. — commit 하기 전 상태2.mixed(default): commit된 파일들을 working directory로 돌려놓는다. — add 하기 전 상태3.hard: commit된 파일들 중 tracked 파일들을 working directory에서 삭제한다. (단, Untracked 파일은 Untracked로 남는다.)",
-        "url": "/java-control-statement"
-    }
-    ,
-    
-    "java-basic": {
-        "title": "exception 처리",
-            "author": "joo-pe",
-            "category": "",
-            "content": "github blog continueGithub 블로그 시작사용된 기술  Jekyll : Liquid template 기반의 전반적인 블록그 생성을 위한 프로그램  Ruby : 간결함과 생산성을 강조한 동적인 오픈소스 프로그래밍 언어  Ghost : publishing platform 의 Jekyll 버전  Travis-CI : 자동 컴파일, 배포을 위한 툴  bundler : ruby application 개발을 위한 일관된 환경 제공  Jasper2 : 페이지 Theme를 위한 프로그래밍---layout: null---&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;urlset xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;        xsi:schemaLocation=&quot;http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd&quot;        xmlns=&quot;http://www.sitemaps.org/schemas/sitemap/0.9&quot;&gt;    {% for post in site.posts %}    &lt;url&gt;        &lt;loc&gt;{{ site.url }}{{ post.url }}.html&lt;/loc&gt;        {% if post.lastmod == null %}        &lt;lastmod&gt;{{ post.date | date_to_xmlschema }}&lt;/lastmod&gt;        {% else %}        &lt;lastmod&gt;{{ post.lastmod | date_to_xmlschema }}&lt;/lastmod&gt;        {% endif %}        {% if post.sitemap.changefreq == null %}        &lt;changefreq&gt;weekly&lt;/changefreq&gt;        {% else %}        &lt;changefreq&gt;{{ post.sitemap.changefreq }}&lt;/changefreq&gt;        {% endif %}        {% if post.sitemap.priority == null %}        &lt;priority&gt;0.5&lt;/priority&gt;        {% else %}        &lt;priority&gt;{{ post.sitemap.priority }}&lt;/priority&gt;        {% endif %}    &lt;/url&gt;    {% endfor %}&lt;/urlset&gt;var i;const a;",
-        "url": "/java-basic"
-    }
-    ,
-    
     "ai-basic": {
         "title": "머신러닝",
             "author": "joo-pe",
@@ -246,7 +228,7 @@ $(function() {
         <!-- The footer at the very bottom of the screen -->
         <footer class="site-footer outer">
             <div class="site-footer-content inner">
-                <section class="copyright"><a href="https://joo-pe.github.io/">Joo's Blog</a> &copy; 2021</section>
+                <section class="copyright"><a href="http://localhost:4000/">Joo's Blog</a> &copy; 2021</section>
                 <section class="poweredby">Proudly published with <a href="https://jekyllrb.com/">Jekyll</a> &
                     <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a> using
                     <a href="https://github.com/jekyller/jasper2" target="_blank" rel="noopener">Jasper2</a></section>
