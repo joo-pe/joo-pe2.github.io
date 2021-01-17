@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="https://joo-pe.github.io/tag/itstory/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://joo-pe.github.io/" rel="alternate" type="text/html" />
-  <updated>2021-01-17T20:39:38+09:00</updated>
+  <updated>2021-01-17T21:10:54+09:00</updated>
   <id>https://joo-pe.github.io/tag/itstory/feed.xml</id>
 
   
@@ -37,7 +37,13 @@
       <published>2021-01-09T16:40:00+09:00</published>
       <updated>2021-01-09T16:40:00+09:00</updated>
       <id>https://joo-pe.github.io/itstory-2</id>
-      <content type="html" xml:base="https://joo-pe.github.io/itstory-2">&lt;p&gt;github blog continue&lt;/p&gt;</content>
+      <content type="html" xml:base="https://joo-pe.github.io/itstory-2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;IT 전반 내용을 볼 수 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./itstory-1&quot;&gt;Pexception 처리&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./itstory-2&quot;&gt;rest api &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;github blog continue&lt;/p&gt;</content>
 
       
       
@@ -58,7 +64,7 @@
       
 
       
-        <summary type="html">github blog continue</summary>
+        <summary type="html">IT 전반 내용을 볼 수 있습니다. Pexception 처리 rest api</summary>
       
 
       
@@ -71,7 +77,13 @@
       <published>2021-01-09T16:40:00+09:00</published>
       <updated>2021-01-09T16:40:00+09:00</updated>
       <id>https://joo-pe.github.io/itstory-1</id>
-      <content type="html" xml:base="https://joo-pe.github.io/itstory-1">&lt;p&gt;github blog continue&lt;/p&gt;</content>
+      <content type="html" xml:base="https://joo-pe.github.io/itstory-1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;IT 전반 내용을 볼 수 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./itstory-1&quot;&gt;Pexception 처리&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./itstory-2&quot;&gt;rest api &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;github blog continue&lt;/p&gt;</content>
 
       
       
@@ -92,7 +104,7 @@
       
 
       
-        <summary type="html">github blog continue</summary>
+        <summary type="html">IT 전반 내용을 볼 수 있습니다. Pexception 처리 rest api</summary>
       
 
       

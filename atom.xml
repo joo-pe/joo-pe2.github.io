@@ -10,7 +10,12 @@
       <item>
         <title>Block chain</title>
         
-          <description>&lt;p&gt;블록체인 합의알고리즘으로 진행된다.&lt;/p&gt;
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;licence 관련 다음과 같은 내용을 볼 수 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./license-1&quot;&gt;기술사&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./license-2&quot;&gt;정보처리기사&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
 </description>
         
         <pubDate>Sat, 09 Jan 2021 16:40:00 +0900</pubDate>
@@ -24,7 +29,12 @@
       <item>
         <title>SDN</title>
         
-          <description>&lt;p&gt;github blog continue&lt;/p&gt;
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;licence 관련 다음과 같은 내용을 볼 수 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./license-1&quot;&gt;기술사&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./license-2&quot;&gt;정보처리기사&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
 </description>
         
         <pubDate>Sat, 09 Jan 2021 16:40:00 +0900</pubDate>
@@ -38,7 +48,12 @@
       <item>
         <title>영상처리</title>
         
-          <description>&lt;p&gt;github blog continue&lt;/p&gt;
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;IT 전반 내용을 볼 수 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./itstory-1&quot;&gt;Pexception 처리&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./itstory-2&quot;&gt;rest api &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
 </description>
         
         <pubDate>Sat, 09 Jan 2021 16:40:00 +0900</pubDate>
@@ -52,7 +67,12 @@
       <item>
         <title>SDN</title>
         
-          <description>&lt;p&gt;github blog continue&lt;/p&gt;
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;IT 전반 내용을 볼 수 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./itstory-1&quot;&gt;Pexception 처리&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./itstory-2&quot;&gt;rest api &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
 </description>
         
         <pubDate>Sat, 09 Jan 2021 16:40:00 +0900</pubDate>
@@ -85,7 +105,11 @@
       <item>
         <title>exception 처리</title>
         
-          <description>&lt;p&gt;github blog continue&lt;/p&gt;
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;develop 관련 다음과 같은 내용을 볼 수 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./develop-1&quot;&gt;exception 처리&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./develop-2&quot;&gt;rest api &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 </description>
         
@@ -100,7 +124,12 @@
       <item>
         <title>인공지능모형</title>
         
-          <description>&lt;p&gt;모형의 알고리즘은 지도학습, 비지도학습 , 강화학습으로 나눌수 있다.&lt;/p&gt;
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;인공지능 관련 다음과 같은 내용을 볼 수 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./ai-1&quot;&gt;결측치처리&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./ai-2&quot;&gt;인공지능모형 &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
 </description>
         
         <pubDate>Sat, 09 Jan 2021 16:40:00 +0900</pubDate>
@@ -114,7 +143,12 @@
       <item>
         <title>머신러닝</title>
         
-          <description>&lt;p&gt;github blog continue&lt;/p&gt;
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;인공지능 관련 다음과 같은 내용을 볼 수 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./ai-1&quot;&gt;결측치처리&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./ai-2&quot;&gt;인공지능모형 &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
 </description>
         
         <pubDate>Sat, 09 Jan 2021 16:40:00 +0900</pubDate>
