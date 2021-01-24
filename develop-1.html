@@ -11,7 +11,7 @@
 
 
 
-    <title>exception 처리</title>
+    <title>왜 JPA 인가</title>
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Styles'n'Scripts -->
@@ -55,18 +55,18 @@
      <!--title below is coming from _includes/dynamic_title-->
     <meta property="og:site_name" content="Joo's Blog" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="exception 처리" />
-    <meta property="og:description" content="develop 관련 다음과 같은 내용을 볼 수 있습니다. exception 처리 rest api github blog continue --- layout: null --- &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;urlset xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:schemaLocation=&quot;http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd&quot; xmlns=&quot;http://www.sitemaps.org/schemas/sitemap/0.9&quot;&gt; {% for post in site.posts %} &lt;url&gt; &lt;loc&gt;{{ site.url }}{{ post.url }}.html&lt;/loc&gt; {% if post.lastmod == null %} &lt;lastmod&gt;{{ post.date | date_to_xmlschema }}&lt;/lastmod&gt;" />
+    <meta property="og:title" content="왜 JPA 인가" />
+    <meta property="og:description" content="JPA 관련 다음과 같은 내용을 볼 수 있습니다. 왜 JPA 인가? rest api github blog continue --- layout: null --- &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;urlset xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:schemaLocation=&quot;http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd&quot; xmlns=&quot;http://www.sitemaps.org/schemas/sitemap/0.9&quot;&gt; {% for post in site.posts %} &lt;url&gt; &lt;loc&gt;{{ site.url }}{{ post.url }}.html&lt;/loc&gt; {% if post.lastmod == null %} &lt;lastmod&gt;{{ post.date | date_to_xmlschema" />
     <meta property="og:url" content="https://joo-pe.github.io/develop-1" />
     <meta property="og:image" content="https://joo-pe.github.io/assets/built/images/develop/develop-1.jpg" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
     <meta property="article:author" content="https://www.facebook.com/" />
-    <meta property="article:published_time" content="2021-01-10T01:40:00+09:00" />
-    <meta property="article:modified_time" content="2021-01-10T01:40:00+09:00" />
+    <meta property="article:published_time" content="2021-01-24T17:10:00+09:00" />
+    <meta property="article:modified_time" content="2021-01-24T17:10:00+09:00" />
     <meta property="article:tag" content="Develop" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="exception 처리" />
-    <meta name="twitter:description" content="develop 관련 다음과 같은 내용을 볼 수 있습니다. exception 처리 rest api github blog continue --- layout: null --- &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;urlset xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:schemaLocation=&quot;http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd&quot; xmlns=&quot;http://www.sitemaps.org/schemas/sitemap/0.9&quot;&gt; {% for post in site.posts %} &lt;url&gt; &lt;loc&gt;{{ site.url }}{{ post.url }}.html&lt;/loc&gt; {% if post.lastmod == null %} &lt;lastmod&gt;{{ post.date | date_to_xmlschema }}&lt;/lastmod&gt;" />
+    <meta name="twitter:title" content="왜 JPA 인가" />
+    <meta name="twitter:description" content="JPA 관련 다음과 같은 내용을 볼 수 있습니다. 왜 JPA 인가? rest api github blog continue --- layout: null --- &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;urlset xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:schemaLocation=&quot;http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd&quot; xmlns=&quot;http://www.sitemaps.org/schemas/sitemap/0.9&quot;&gt; {% for post in site.posts %} &lt;url&gt; &lt;loc&gt;{{ site.url }}{{ post.url }}.html&lt;/loc&gt; {% if post.lastmod == null %} &lt;lastmod&gt;{{ post.date | date_to_xmlschema" />
     <meta name="twitter:url" content="https://joo-pe.github.io/" />
     <meta name="twitter:image" content="https://joo-pe.github.io/assets/built/images/develop/develop-1.jpg" />
     <meta name="twitter:label1" content="Written by" />
@@ -98,7 +98,7 @@
         "@type": "WebPage",
         "@id": "https://joo-pe.github.io/develop-1"
     },
-    "description": "develop 관련 다음과 같은 내용을 볼 수 있습니다. exception 처리 rest api github blog continue --- layout: null --- &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;urlset xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:schemaLocation=&quot;http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd&quot; xmlns=&quot;http://www.sitemaps.org/schemas/sitemap/0.9&quot;&gt; {% for post in site.posts %} &lt;url&gt; &lt;loc&gt;{{ site.url }}{{ post.url }}.html&lt;/loc&gt; {% if post.lastmod == null %} &lt;lastmod&gt;{{ post.date | date_to_xmlschema }}&lt;/lastmod&gt;"
+    "description": "JPA 관련 다음과 같은 내용을 볼 수 있습니다. 왜 JPA 인가? rest api github blog continue --- layout: null --- &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;urlset xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:schemaLocation=&quot;http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd&quot; xmlns=&quot;http://www.sitemaps.org/schemas/sitemap/0.9&quot;&gt; {% for post in site.posts %} &lt;url&gt; &lt;loc&gt;{{ site.url }}{{ post.url }}.html&lt;/loc&gt; {% if post.lastmod == null %} &lt;lastmod&gt;{{ post.date | date_to_xmlschema"
 }
     </script>
 
@@ -111,7 +111,7 @@
     </script> -->
 
     <meta name="generator" content="Jekyll 3.6.2" />
-    <link rel="alternate" type="application/rss+xml" title="exception 처리" href="/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="왜 JPA 인가" href="/feed.xml" />
 
 
 </head>
@@ -174,7 +174,7 @@ into the {body} of the default.hbs template -->
 
             <header class="post-full-header">
                 <section class="post-full-meta">
-                    <time class="post-full-meta-date" datetime="10 January 2021">10 January 2021</time>
+                    <time class="post-full-meta-date" datetime="24 January 2021">24 January 2021</time>
                     
                         <span class="date-divider">/</span>
                         
@@ -184,7 +184,7 @@ into the {body} of the default.hbs template -->
                         
                     
                 </section>
-                <h1 class="post-full-title">exception 처리</h1>
+                <h1 class="post-full-title">왜 JPA 인가</h1>
             </header>
 
         <!--
@@ -195,9 +195,9 @@ into the {body} of the default.hbs template -->
 -->
             <section class="post-full-content">
                 <div class="kg-card-markdown">
-                    <p><span class="table-of-contents-list">develop 관련 다음과 같은 내용을 볼 수 있습니다. </span></p>
+                    <p><span class="table-of-contents-list">JPA 관련 다음과 같은 내용을 볼 수 있습니다. </span></p>
 <ul class="table-of-contents-list">
-    <li><a href="./develop-1">exception 처리</a></li>
+    <li><a href="./develop-1">왜 JPA 인가?</a></li>
     <li><a href="./develop-2">rest api </a></li>
 </ul>
 
@@ -242,7 +242,56 @@ layout: null
 
 </code></pre></div></div>
 
-<p><img src="assets/built/images/ai/ai-1.png" alt="img_1.png" /></p>
+<h2 id="jpajava-persistence-api">JPA(Java Persistence API)</h2>
+
+<p>왜 요즘 JPA를 선호할까?
+ORM(object-Relational Mapping) 이라는 개념은 내 기억에는 15년 전까지 거슬러 올라갔어도. 있었던 개념이었던거 같다.
+초창기에는 hibernate 라는 기술이 있었다. 참 신선했던 기억이 있었다. 
+<strong>클래스와 DB와 엔티티를 맞춰서 코딩을 한다</strong>
+하지만 RDBMS의 다양한 쿼리를 자유자재로 사용할 수 없다는건 단점이다.
+무늬만 좋은 기술은 사용할수 없는 법이다. 남들이 쓴다고 나도 JPA를 써야지 라고만 시작하면 한계에 부딪힐 것이다.
+왜 JPA를 사용해야 하는지 관점으로 한번 접근을 해보겠다.</p>
+
+<h3 id="jpa의-사상">JPA의 사상</h3>
+
+<p>객체와 데이터베이스 패러다임의 불일치를 해결하기 위해서 등장한 프레임워크이다.
+JPA는 자바 ORM 기술에 대한 API 표준 명세이다.</p>
+
+<h3 id="db-조작을-신뢰하면서-편리한-어플리케이션이-필요하다">DB 조작을 신뢰하면서 편리한 어플리케이션이 필요하다.</h3>
+
+<p>어플리케이션에서 DB 연결할 때 사용되는 프레임워크 중 하나가 JPA 이다.
+기존 JDBC 에서 이런 DB연결 프레임워크를 사용하는 이유를 알아야 한다.
+어떤 장점이 있어야 할 것이다. 
+어플리케이션에서 데이터베이스 조작할 때 다음이 중요한 사항 일 것이다.</p>
+
+<p><u>데이터 무결성</u>  , <u>성능</u> ,  <u>데이터 독립성</u> , <u>데이터조작</u></p>
+
+<h3 id="일단-개발의-편의성의-jpa">일단 개발의 편의성의 JPA</h3>
+
+<p>우선 개발하는 입장에서는 코드의 가독성 및 생산성을 중요시 할 것이다.
+그런 측면에서는 create, insert 같은 지루하고 반복적인 일을 JPA가 대신 해주게 되어 많은 장점이 있다.
+유지보수 측면에서도 복잡하지 않은 쿼리라고 하면 일부분만 수정하면 되기 때문에 장점이 많다.</p>
+
+<h3 id="성능-측면의-jpa">성능 측면의 JPA</h3>
+<p>JPA는 지연로딩을 지원한다.
+한 테이블을 조회하고 또 세부적인 조회를 해야 한다고 했을 때 지연로딩을 할 수 있다.
+아래는 전체 member를 조회하고, 그중 연관된 주문을 찾는 방식의 예제 코드이다.</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Member</span> <span class="n">member</span> <span class="o">=</span> <span class="n">jpa</span><span class="o">.</span><span class="na">find</span><span class="o">(</span><span class="n">Member</span><span class="o">.</span><span class="na">class</span><span class="o">,</span> <span class="n">memberId</span><span class="o">);</span>
+
+<span class="n">Order</span> <span class="n">order</span> <span class="o">=</span> <span class="n">member</span><span class="o">.</span><span class="na">getOrder</span><span class="o">();</span>
+<span class="n">order</span><span class="o">.</span><span class="na">getOrderDate</span><span class="o">();</span>
+</code></pre></div></div>
+
+<p>다음 생각해볼 것은 JPA는 내부적으로 데이터베이스와 어플리케이션 사이에 중간계층이 있다는 점이다.
+같은 조회를 할 때 한번만 조회할 수 있다는 장점이 있다.</p>
+
+<h3 id="데이터-독립성-의-jpa">데이터 독립성 의 JPA</h3>
+
+<p>데이터 독립성은 개념적, 논리적, 물리적으로 데이터가 분리되어야 한다는 속성이다.
+JPA를 사용하면 일단 어플리케이션에서 자유자재로 다양한 DBMS로 변경하여 붙힐 수 있다.
+이런 측면에서 이야기 해볼수 있지 않을까</p>
+
 
                 </div>
             </section>
@@ -310,7 +359,7 @@ layout: null
                         var disqus_config = function () {
                             this.page.url = 'https://joo-pe.github.io/develop-1';
                             this.page.identifier = '/develop-1';
-                            this.page.title = 'exception 처리';
+                            this.page.title = '왜 JPA 인가';
                         };
                         (function() {
                             var d = document, s = d.createElement('script');
@@ -354,6 +403,14 @@ layout: null
                                 
                                 
                                   
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
                                 
                                   
                                 
@@ -365,17 +422,9 @@ layout: null
                                     
                                         
                                         
-                                            <li><a href="/develop-2">rest api</a></li>
+                                            <li><a href="/develop-2">JPA(Java Persistence API)</a></li>
                                         
                                     
-                                  
-                                
-                                  
-                                    
-                                  
-                                
-                                  
-                                
                                   
                                 
                                   
@@ -395,55 +444,6 @@ layout: null
 
             <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
             
-                
-
-    <article class="post-card post-template">
-        
-            <a class="post-card-image-link" href="/develop-2">
-                <div class="post-card-image" style="background-image: url(/assets/built/images/develop/develop-1.jpg)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/develop-2">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Develop</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">rest api</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p></p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                        
-                        <img class="author-profile-image" src="/assets/built/images/company.jpg" alt="Joohyung Park" />
-                        
-                        <span class="post-card-author">
-                            <a href="/author/joo-pe/">Joohyung Park</a>
-                        </span>
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      1 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
-
-            
 
             <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
             
@@ -451,22 +451,22 @@ layout: null
 
     <article class="post-card post-template">
         
-            <a class="post-card-image-link" href="/ai-2">
-                <div class="post-card-image" style="background-image: url(/assets/built/images/ai/ai-1.png)"></div>
+            <a class="post-card-image-link" href="/license-2">
+                <div class="post-card-image" style="background-image: url(/assets/built/images/license/license-1.jpg)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/ai-2">
+            <a class="post-card-content-link" href="/license-2">
                 <header class="post-card-header">
                     
                         
                             
-                                <span class="post-card-tags">Ai</span>
+                                <span class="post-card-tags">License</span>
                             
                         
                     
 
-                    <h2 class="post-card-title">인공지능모형</h2>
+                    <h2 class="post-card-title">Block chain</h2>
                 </header>
                 <section class="post-card-excerpt">
                     
@@ -510,13 +510,13 @@ layout: null
         </a>
     </div>
     <span class="floating-header-divider">&mdash;</span>
-    <div class="floating-header-title">exception 처리</div>
+    <div class="floating-header-title">왜 JPA 인가</div>
     <div class="floating-header-share">
         <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
     <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/>
 </svg>
 </div>
-        <a class="floating-header-share-tw" href="https://twitter.com/share?text=exception+%EC%B2%98%EB%A6%AC&amp;url=https://joo-pe.github.iodevelop-1"
+        <a class="floating-header-share-tw" href="https://twitter.com/share?text=%EC%99%9C+JPA+%EC%9D%B8%EA%B0%80&amp;url=https://joo-pe.github.iodevelop-1"
             onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
 
