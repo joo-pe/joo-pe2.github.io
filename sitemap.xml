@@ -4,9 +4,25 @@
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
+        <loc>https://joo-pe.github.io/develop-2.html</loc>
+        
+        <lastmod>2021-01-26T01:40:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
         <loc>https://joo-pe.github.io/develop-1.html</loc>
         
-        <lastmod>2021-01-24T17:10:00+09:00</lastmod>
+        <lastmod>2021-01-25T17:10:00+09:00</lastmod>
         
 
         
@@ -103,22 +119,6 @@
         <loc>https://joo-pe.github.io/ai-1.html</loc>
         
         <lastmod>2021-01-10T01:40:00+09:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>https://joo-pe.github.io/develop-2.html</loc>
-        
-        <lastmod>2021-01-09T01:40:00+09:00</lastmod>
         
 
         

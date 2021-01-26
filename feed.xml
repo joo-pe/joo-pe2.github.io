@@ -1,44 +1,38 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="https://joo-pe.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://joo-pe.github.io/" rel="alternate" type="text/html" /><updated>2021-01-25T08:41:21+09:00</updated><id>https://joo-pe.github.io/</id><title type="html">Joo’s Blog</title><subtitle>Professional Engineer</subtitle><entry><title type="html">왜 JPA 인가</title><link href="https://joo-pe.github.io/develop-1" rel="alternate" type="text/html" title="왜 JPA 인가" /><published>2021-01-24T17:10:00+09:00</published><updated>2021-01-24T17:10:00+09:00</updated><id>https://joo-pe.github.io/develop-1</id><content type="html" xml:base="https://joo-pe.github.io/develop-1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;JPA 관련 다음과 같은 내용을 볼 수 있습니다. &lt;/span&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="https://joo-pe.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://joo-pe.github.io/" rel="alternate" type="text/html" /><updated>2021-01-26T10:03:34+09:00</updated><id>https://joo-pe.github.io/</id><title type="html">Joo’s Blog</title><subtitle>Professional Engineer</subtitle><entry><title type="html">JPA 연관관계가 왜 중요한가?</title><link href="https://joo-pe.github.io/develop-2" rel="alternate" type="text/html" title="JPA 연관관계가 왜 중요한가?" /><published>2021-01-26T01:40:00+09:00</published><updated>2021-01-26T01:40:00+09:00</updated><id>https://joo-pe.github.io/develop-2</id><content type="html" xml:base="https://joo-pe.github.io/develop-2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;JPA 관련 다음과 같은 내용을 볼 수 있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./develop-1&quot;&gt;왜 JPA 인가?&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./develop-2&quot;&gt;rest api &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./develop-2&quot;&gt;JPA 연관관계가 왜 중요한가? &lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;github blog continue&lt;/p&gt;
+&lt;p&gt;JPA의 연관관계&lt;/p&gt;
 
-&lt;noscript&gt;&lt;pre&gt;---
-layout: null
----
+&lt;h2 id=&quot;연관관계&quot;&gt;연관관계&lt;/h2&gt;
 
-&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot;?&amp;gt;
-&amp;lt;urlset xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot;
-        xsi:schemaLocation=&amp;quot;http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd&amp;quot;
-        xmlns=&amp;quot;http://www.sitemaps.org/schemas/sitemap/0.9&amp;quot;&amp;gt;
-    {% for post in site.posts %}
-    &amp;lt;url&amp;gt;
-        &amp;lt;loc&amp;gt;{{ site.url }}{{ post.url }}.html&amp;lt;/loc&amp;gt;
-        {% if post.lastmod == null %}
-        &amp;lt;lastmod&amp;gt;{{ post.date | date_to_xmlschema }}&amp;lt;/lastmod&amp;gt;
-        {% else %}
-        &amp;lt;lastmod&amp;gt;{{ post.lastmod | date_to_xmlschema }}&amp;lt;/lastmod&amp;gt;
-        {% endif %}
+&lt;p&gt;데이터베이스와 어플리케이션 사이에 메모리 캐쉬를 이용하여 테이블을 객체지향적으로 처리할 수 있도록 하는게 JPA의 핵심이다.
+테이블들을 객체로 보는 것이 ORM의 핵심이다. 각각의 테이블을 객체로 보고, 사용되는 객체 연관관계도 객체지향적으로 연결시켜 놓으면 JPA의 장점을 활용할 수 있다.&lt;/p&gt;
 
-        {% if post.sitemap.changefreq == null %}
-        &amp;lt;changefreq&amp;gt;weekly&amp;lt;/changefreq&amp;gt;
-        {% else %}
-        &amp;lt;changefreq&amp;gt;{{ post.sitemap.changefreq }}&amp;lt;/changefreq&amp;gt;
-        {% endif %}
+&lt;p&gt;엔티티의 관계에는 1:N, N:1, M:N 의 관계로 볼 수 있다.
+연관관계에 대해 객체화 시켜놓은 테이블이 서로 참조할 수 있도록 클래스를 구현할 때 선언 해 놓는 것이 필요하다.&lt;/p&gt;
 
-        {% if post.sitemap.priority == null %}
-        &amp;lt;priority&amp;gt;0.5&amp;lt;/priority&amp;gt;
-        {% else %}
-        &amp;lt;priority&amp;gt;{{ post.sitemap.priority }}&amp;lt;/priority&amp;gt;
-        {% endif %}
+&lt;p&gt;&lt;em&gt;팀과 회원이 있다고 하면 *1:N* 의 관계가 된다.&lt;/em&gt;&lt;/p&gt;
 
-    &amp;lt;/url&amp;gt;
-    {% endfor %}
-&amp;lt;/urlset&amp;gt;&lt;/pre&gt;&lt;/noscript&gt;
-&lt;script src=&quot;https://gist.github.com/joo-pe/08fbe8aeef0b79bdb8fbd3f090809fb5.js&quot;&gt; &lt;/script&gt;
+&lt;p&gt;이 경우를 클래스로 구현하게 되면&lt;/p&gt;
+
+&lt;p&gt;팀에 속한 여러 회원을 구현할 수 있으므로, 회원에서 팀을 포함하고 있어야 한다.
+이렇게되려면 &lt;em&gt;단방향&lt;/em&gt; 이 되어야 한다.
+팀은 여러 객체에서 사용될 수 있기 때문에 의존적이지 않고, 여러 팀에 속할 수 있는 회원 객체에서 팀을 선언한다.
+따라서 팀에서는 회원을 선언하지 않기 때문에 회원에 대해 알지 못한다.&lt;/p&gt;
+
+&lt;p&gt;Team을 참조하고 있는 member 테이블에서 다음과 같이 선언한다.&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nd&quot;&gt;@ManyToOne&lt;/span&gt;
+&lt;span class=&quot;nd&quot;&gt;@JoinColumn&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;TEAM_ID&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Team&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;team&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Joohyung Park</name></author><category term="develop" /><summary type="html">JPA 관련 다음과 같은 내용을 볼 수 있습니다. 왜 JPA 인가? JPA 연관관계가 왜 중요한가?</summary></entry><entry><title type="html">왜 JPA 인가</title><link href="https://joo-pe.github.io/develop-1" rel="alternate" type="text/html" title="왜 JPA 인가" /><published>2021-01-25T17:10:00+09:00</published><updated>2021-01-25T17:10:00+09:00</updated><id>https://joo-pe.github.io/develop-1</id><content type="html" xml:base="https://joo-pe.github.io/develop-1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;JPA 관련 다음과 같은 내용을 볼 수 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./develop-1&quot;&gt;왜 JPA 인가?&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./develop-2&quot;&gt;JPA 연관관계가 왜 중요한가? &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
@@ -93,7 +87,7 @@ JPA는 자바 ORM 기술에 대한 API 표준 명세이다.&lt;/p&gt;
 
 &lt;p&gt;데이터 독립성은 개념적, 논리적, 물리적으로 데이터가 분리되어야 한다는 속성이다.
 JPA를 사용하면 일단 어플리케이션에서 자유자재로 다양한 DBMS로 변경하여 붙힐 수 있다.
-이런 측면에서 이야기 해볼수 있지 않을까&lt;/p&gt;</content><author><name>Joohyung Park</name></author><category term="develop" /><summary type="html">JPA 관련 다음과 같은 내용을 볼 수 있습니다. 왜 JPA 인가? rest api</summary></entry><entry><title type="html">Block chain</title><link href="https://joo-pe.github.io/license-2" rel="alternate" type="text/html" title="Block chain" /><published>2021-01-10T01:40:00+09:00</published><updated>2021-01-10T01:40:00+09:00</updated><id>https://joo-pe.github.io/license-2</id><content type="html" xml:base="https://joo-pe.github.io/license-2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;licence 관련 다음과 같은 내용을 볼 수 있습니다. &lt;/span&gt;&lt;/p&gt;
+이런 측면에서 이야기 해볼수 있지 않을까&lt;/p&gt;</content><author><name>Joohyung Park</name></author><category term="develop" /><summary type="html">JPA 관련 다음과 같은 내용을 볼 수 있습니다. 왜 JPA 인가? JPA 연관관계가 왜 중요한가?</summary></entry><entry><title type="html">Block chain</title><link href="https://joo-pe.github.io/license-2" rel="alternate" type="text/html" title="Block chain" /><published>2021-01-10T01:40:00+09:00</published><updated>2021-01-10T01:40:00+09:00</updated><id>https://joo-pe.github.io/license-2</id><content type="html" xml:base="https://joo-pe.github.io/license-2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;licence 관련 다음과 같은 내용을 볼 수 있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./license-1&quot;&gt;기술사&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./license-2&quot;&gt;정보처리기사&lt;/a&gt;&lt;/li&gt;
@@ -117,7 +111,7 @@ JPA를 사용하면 일단 어플리케이션에서 자유자재로 다양한 DB
     &lt;li&gt;&lt;a href=&quot;./itstory-2&quot;&gt;rest api &lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;github blog continue&lt;/p&gt;</content><author><name>Joohyung Park</name></author><category term="itstory" /><summary type="html">IT 전반 내용을 볼 수 있습니다. Pexception 처리 rest api</summary></entry><entry><title type="html">인공지능모형</title><link href="https://joo-pe.github.io/ai-2" rel="alternate" type="text/html" title="인공지능모형" /><published>2021-01-10T01:40:00+09:00</published><updated>2021-01-10T01:40:00+09:00</updated><id>https://joo-pe.github.io/ai-2</id><content type="html" xml:base="https://joo-pe.github.io/ai-2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;인공지능 관련 다음과 같은 내용을 볼 수 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;github blog continue2&lt;/p&gt;</content><author><name>Joohyung Park</name></author><category term="itstory" /><summary type="html">IT 전반 내용을 볼 수 있습니다. Pexception 처리 rest api</summary></entry><entry><title type="html">인공지능모형</title><link href="https://joo-pe.github.io/ai-2" rel="alternate" type="text/html" title="인공지능모형" /><published>2021-01-10T01:40:00+09:00</published><updated>2021-01-10T01:40:00+09:00</updated><id>https://joo-pe.github.io/ai-2</id><content type="html" xml:base="https://joo-pe.github.io/ai-2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;인공지능 관련 다음과 같은 내용을 볼 수 있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./ai-1&quot;&gt;결측치처리&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./ai-2&quot;&gt;인공지능모형 &lt;/a&gt;&lt;/li&gt;
@@ -129,18 +123,7 @@ JPA를 사용하면 일단 어플리케이션에서 자유자재로 다양한 DB
     &lt;li&gt;&lt;a href=&quot;./ai-2&quot;&gt;인공지능모형 &lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;github blog continue&lt;/p&gt;</content><author><name>Joohyung Park</name></author><category term="ai" /><summary type="html">인공지능 관련 다음과 같은 내용을 볼 수 있습니다. 결측치처리 인공지능모형</summary></entry><entry><title type="html">JPA(Java Persistence API)</title><link href="https://joo-pe.github.io/develop-2" rel="alternate" type="text/html" title="JPA(Java Persistence API)" /><published>2021-01-09T01:40:00+09:00</published><updated>2021-01-09T01:40:00+09:00</updated><id>https://joo-pe.github.io/develop-2</id><content type="html" xml:base="https://joo-pe.github.io/develop-2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;JPA 관련 다음과 같은 내용을 볼 수 있습니다. &lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./develop-1&quot;&gt;왜 JPA 인가?&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./develop-2&quot;&gt;rest api &lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;JPA에 대해 계속 봅시다.&lt;/p&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Joohyung Park</name></author><category term="develop" /><summary type="html">JPA 관련 다음과 같은 내용을 볼 수 있습니다. 왜 JPA 인가? rest api</summary></entry><entry><title type="html">Gettysburg Address</title><link href="https://joo-pe.github.io/gettysburg-address" rel="alternate" type="text/html" title="Gettysburg Address" /><published>1863-11-19T19:18:00+09:00</published><updated>1863-11-19T19:18:00+09:00</updated><id>https://joo-pe.github.io/gettysburg-address</id><content type="html" xml:base="https://joo-pe.github.io/gettysburg-address">&lt;p&gt;Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.&lt;/p&gt;
+&lt;p&gt;github blog continue&lt;/p&gt;</content><author><name>Joohyung Park</name></author><category term="ai" /><summary type="html">인공지능 관련 다음과 같은 내용을 볼 수 있습니다. 결측치처리 인공지능모형</summary></entry><entry><title type="html">Gettysburg Address</title><link href="https://joo-pe.github.io/gettysburg-address" rel="alternate" type="text/html" title="Gettysburg Address" /><published>1863-11-19T19:18:00+09:00</published><updated>1863-11-19T19:18:00+09:00</updated><id>https://joo-pe.github.io/gettysburg-address</id><content type="html" xml:base="https://joo-pe.github.io/gettysburg-address">&lt;p&gt;Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.&lt;/p&gt;
 
 &lt;p&gt;Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure. We are met on a great battle-field of that war. We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live. It is altogether fitting and proper that we should do this.&lt;/p&gt;
 

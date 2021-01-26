@@ -8,17 +8,36 @@
     
       
       <item>
+        <title>JPA 연관관계가 왜 중요한가?</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;JPA 관련 다음과 같은 내용을 볼 수 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./develop-1&quot;&gt;왜 JPA 인가?&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./develop-2&quot;&gt;JPA 연관관계가 왜 중요한가? &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Tue, 26 Jan 2021 01:40:00 +0900</pubDate>
+        <link>
+        https://joo-pe.github.io/develop-2</link>
+        <guid isPermaLink="true">https://joo-pe.github.io/develop-2</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>왜 JPA 인가</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;JPA 관련 다음과 같은 내용을 볼 수 있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./develop-1&quot;&gt;왜 JPA 인가?&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./develop-2&quot;&gt;rest api &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./develop-2&quot;&gt;JPA 연관관계가 왜 중요한가? &lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
         
-        <pubDate>Sun, 24 Jan 2021 17:10:00 +0900</pubDate>
+        <pubDate>Mon, 25 Jan 2021 17:10:00 +0900</pubDate>
         <link>
         https://joo-pe.github.io/develop-1</link>
         <guid isPermaLink="true">https://joo-pe.github.io/develop-1</guid>
@@ -136,25 +155,6 @@
         <link>
         https://joo-pe.github.io/ai-1</link>
         <guid isPermaLink="true">https://joo-pe.github.io/ai-1</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>JPA(Java Persistence API)</title>
-        
-          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;JPA 관련 다음과 같은 내용을 볼 수 있습니다. &lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./develop-1&quot;&gt;왜 JPA 인가?&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./develop-2&quot;&gt;rest api &lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        
-        <pubDate>Sat, 09 Jan 2021 01:40:00 +0900</pubDate>
-        <link>
-        https://joo-pe.github.io/develop-2</link>
-        <guid isPermaLink="true">https://joo-pe.github.io/develop-2</guid>
       </item>
       
     
