@@ -1,67 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ChangeListManager">
-    <list default="true" id="68c9f02d-011c-4197-8194-177f1802dc1c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ai-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ai-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ai-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ai-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive.html" beforeDir="false" afterPath="$PROJECT_DIR$/archive.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/atom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/author/joo-pe/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/author/joo-pe/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/author/joo-pe/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/author/joo-pe/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/author_archive.html" beforeDir="false" afterPath="$PROJECT_DIR$/author_archive.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/develop-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/develop-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/develop-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/develop-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gettysburg-address.html" beforeDir="false" afterPath="$PROJECT_DIR$/gettysburg-address.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itstory-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/itstory-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itstory-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/itstory-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/license-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/license-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/license-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/license-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tag/ai/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tag/ai/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tag/develop/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tag/develop/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tag/develop/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tag/develop/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tag/itstory/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tag/itstory/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tag/license/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tag/license/feed.xml" afterDir="false" />
-    </list>
-    <option name="SHOW_DIALOG" value="false" />
-    <option name="HIGHLIGHT_CONFLICTS" value="true" />
-    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
-    <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectId" id="1nXLwn3ruYA2H7xorJjfhxG50t2" />
   <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="nodejs_package_manager_path" value="npm" />
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="68c9f02d-011c-4197-8194-177f1802dc1c" name="Default Changelist" comment="" />
-      <created>1611531729719</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1611531729719</updated>
-      <workItem from="1611531730910" duration="2990000" />
-      <workItem from="1611565543840" duration="1245000" />
-      <workItem from="1611611581503" duration="2946000" />
-    </task>
-    <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
   </component>
 </project>
