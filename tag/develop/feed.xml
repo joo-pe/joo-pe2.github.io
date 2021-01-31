@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="https://joo-pe.github.io/tag/develop/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://joo-pe.github.io/" rel="alternate" type="text/html" />
-  <updated>2021-01-27T08:23:22+09:00</updated>
+  <updated>2021-02-01T08:33:54+09:00</updated>
   <id>https://joo-pe.github.io/tag/develop/feed.xml</id>
 
   
@@ -32,6 +32,142 @@
 
   
     <entry>
+      <title type="html">객체지향 쿼리</title>
+      <link href="https://joo-pe.github.io/develop-4" rel="alternate" type="text/html" title="객체지향 쿼리" />
+      <published>2021-01-29T01:40:00+09:00</published>
+      <updated>2021-01-29T01:40:00+09:00</updated>
+      <id>https://joo-pe.github.io/develop-4</id>
+      <content type="html" xml:base="https://joo-pe.github.io/develop-4">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;JPA 관련 다음과 같은 내용을 볼 수 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./develop-1&quot;&gt;왜 JPA 인가?&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./develop-2&quot;&gt;JPA 연관관계가 왜 중요한가? &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./develop-3&quot;&gt;JPA 프록시 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./develop-4&quot;&gt;객체지향 쿼리 &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;객체지향-쿼리&quot;&gt;객체지향 쿼리&lt;/h3&gt;
+
+&lt;p&gt;데이터가 많은 경우 모든 데이터를 한번에 가져와야 하거나, 쿼리의 복잡성이 생기는 경우가 있다.
+이렇때는 ORM 으로 객체와 테이블을 모두 연관지어 코드를 작성하기 보다는 객체지향 쿼리를 이용하는 방법이 있다.&lt;/p&gt;
+
+&lt;p&gt;테이블로의 쿼리가 아닌 객체에 전달하는 쿼리로 생각하면된다.&lt;/p&gt;
+
+&lt;p&gt;JPQL을 사용하면 JPA는 이 JPQ을 분석한 다음 적절한 SQL을 만들어 데이터베이스를 조회한다.&lt;/p&gt;
+
+&lt;h4 id=&quot;jpql&quot;&gt;JPQL&lt;/h4&gt;
+&lt;p&gt;JPQ을 사용하는 방법에는 Criteria 쿼리가 있다.
+Criteria 쿼리는 JPQL을 편하게 작성하도록 도와주는 API, 빌더 클래스 모음이다.
+Criteria 쿼리의 장점은 문자가 아닌 query.select(m),where(…) 처럼 프로그래밍 코드로 JPQL을 작성할 수 있다는 장점이 있다.
+하지만 Criteria 가 가진 장점은 많지만 너무 복잡하고, 한눈에 보이지도 않는다.&lt;/p&gt;
+
+&lt;p&gt;그래서 많이 사용하는 것이 QueryDSL 이다.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Joohyung Park</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="develop" />
+      
+
+      
+        <summary type="html">JPA 관련 다음과 같은 내용을 볼 수 있습니다. 왜 JPA 인가? JPA 연관관계가 왜 중요한가? JPA 프록시 객체지향 쿼리</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">JPA 프록시</title>
+      <link href="https://joo-pe.github.io/develop-3" rel="alternate" type="text/html" title="JPA 프록시" />
+      <published>2021-01-26T01:40:00+09:00</published>
+      <updated>2021-01-26T01:40:00+09:00</updated>
+      <id>https://joo-pe.github.io/develop-3</id>
+      <content type="html" xml:base="https://joo-pe.github.io/develop-3">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;JPA 관련 다음과 같은 내용을 볼 수 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./develop-1&quot;&gt;왜 JPA 인가?&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./develop-2&quot;&gt;JPA 연관관계가 왜 중요한가? &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./develop-3&quot;&gt;JPA 프록시 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./develop-4&quot;&gt;객체지향 쿼리 &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;jpa-조회&quot;&gt;JPA 조회&lt;/h3&gt;
+
+&lt;p&gt;JPA 조회를 할 때 데이터베이스를 요청할 때마다 조회하는 것이 아니고, 실제 조회가 필요할 때만 조회를 할수 있도록 할 수 있다.
+그것이 지연로딩이라는 개념인데 이 때 프록시객체를 이용하게 된다.&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;Member&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;member&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;em&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getReference&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Member&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;id1&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;member&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;프록시 객체는 원본 데이터를 상속받은 객체이므로 타입 체크시 주의해야 한다.&lt;/li&gt;
+  &lt;li&gt;영속성 컨텍스트에 찾는 데이터가있으면 프록시가 아닌 실제 엔티티를 반환한다.&lt;/li&gt;
+  &lt;li&gt;프록시 객체는 처음 사용할 때 한번만 초기화된다. 초기화할 때는 영속성 컨텍스트의 도움을 받아야 가능한다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;즉시로딩--지연로딩&quot;&gt;즉시로딩 &amp;amp; 지연로딩&lt;/h3&gt;
+
+&lt;h3 id=&quot;성능-이슈시-고려해볼만한-사항&quot;&gt;성능 이슈시 고려해볼만한 사항&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;내부조인, 외부조인
+    &lt;ul&gt;
+      &lt;li&gt;외부조인보다는 내부조인이 성능이 좋다.
+외래키에 null을 허용하지 않는다는 가정을 주어 내부조인을 사용할 수 있다.
+그러기 위해서는 @JoinColumn을 이용한다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nd&quot;&gt;@JoinColumn&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;TEAM_ID&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nullable&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;혹은&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nd&quot;&gt;@ManyToOne&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fetch&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;FetchType&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;EAGER&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;optional&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;으로 할 수 있다.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Joohyung Park</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="develop" />
+      
+
+      
+        <summary type="html">JPA 관련 다음과 같은 내용을 볼 수 있습니다. 왜 JPA 인가? JPA 연관관계가 왜 중요한가? JPA 프록시 객체지향 쿼리</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">JPA 연관관계가 왜 중요한가?</title>
       <link href="https://joo-pe.github.io/develop-2" rel="alternate" type="text/html" title="JPA 연관관계가 왜 중요한가?" />
       <published>2021-01-26T01:40:00+09:00</published>
@@ -41,6 +177,8 @@
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./develop-1&quot;&gt;왜 JPA 인가?&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./develop-2&quot;&gt;JPA 연관관계가 왜 중요한가? &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./develop-3&quot;&gt;JPA 프록시 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./develop-4&quot;&gt;객체지향 쿼리 &lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;JPA의 연관관계&lt;/p&gt;
@@ -107,7 +245,7 @@
       
 
       
-        <summary type="html">JPA 관련 다음과 같은 내용을 볼 수 있습니다. 왜 JPA 인가? JPA 연관관계가 왜 중요한가?</summary>
+        <summary type="html">JPA 관련 다음과 같은 내용을 볼 수 있습니다. 왜 JPA 인가? JPA 연관관계가 왜 중요한가? JPA 프록시 객체지향 쿼리</summary>
       
 
       
@@ -124,6 +262,8 @@
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./develop-1&quot;&gt;왜 JPA 인가?&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./develop-2&quot;&gt;JPA 연관관계가 왜 중요한가? &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./develop-3&quot;&gt;JPA 프록시 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./develop-4&quot;&gt;객체지향 쿼리 &lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
@@ -200,7 +340,7 @@ JPA를 사용하면 일단 어플리케이션에서 자유자재로 다양한 DB
       
 
       
-        <summary type="html">JPA 관련 다음과 같은 내용을 볼 수 있습니다. 왜 JPA 인가? JPA 연관관계가 왜 중요한가?</summary>
+        <summary type="html">JPA 관련 다음과 같은 내용을 볼 수 있습니다. 왜 JPA 인가? JPA 연관관계가 왜 중요한가? JPA 프록시 객체지향 쿼리</summary>
       
 
       

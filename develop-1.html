@@ -56,7 +56,7 @@
     <meta property="og:site_name" content="Joo's Blog" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="왜 JPA 인가" />
-    <meta property="og:description" content="JPA 관련 다음과 같은 내용을 볼 수 있습니다. 왜 JPA 인가? JPA 연관관계가 왜 중요한가? var i; const a; JPA(Java Persistence API) 왜 요즘 JPA를 선호할까? ORM(object-Relational Mapping) 이라는 개념은 내 기억에는 15년 전까지 거슬러 올라갔어도. 있었던 개념이었던거 같다. 초창기에는 hibernate 라는 기술이 있었다. 참 신선했던 기억이 있었다. 클래스와 DB와" />
+    <meta property="og:description" content="JPA 관련 다음과 같은 내용을 볼 수 있습니다. 왜 JPA 인가? JPA 연관관계가 왜 중요한가? JPA 프록시 객체지향 쿼리 var i; const a; JPA(Java Persistence API) 왜 요즘 JPA를 선호할까? ORM(object-Relational Mapping) 이라는 개념은 내 기억에는 15년 전까지 거슬러 올라갔어도. 있었던 개념이었던거 같다. 초창기에는 hibernate 라는 기술이 있었다. 참 신선했던" />
     <meta property="og:url" content="https://joo-pe.github.io/develop-1" />
     <meta property="og:image" content="https://joo-pe.github.io/assets/built/images/develop/develop-1.jpg" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
@@ -66,7 +66,7 @@
     <meta property="article:tag" content="Develop" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="왜 JPA 인가" />
-    <meta name="twitter:description" content="JPA 관련 다음과 같은 내용을 볼 수 있습니다. 왜 JPA 인가? JPA 연관관계가 왜 중요한가? var i; const a; JPA(Java Persistence API) 왜 요즘 JPA를 선호할까? ORM(object-Relational Mapping) 이라는 개념은 내 기억에는 15년 전까지 거슬러 올라갔어도. 있었던 개념이었던거 같다. 초창기에는 hibernate 라는 기술이 있었다. 참 신선했던 기억이 있었다. 클래스와 DB와" />
+    <meta name="twitter:description" content="JPA 관련 다음과 같은 내용을 볼 수 있습니다. 왜 JPA 인가? JPA 연관관계가 왜 중요한가? JPA 프록시 객체지향 쿼리 var i; const a; JPA(Java Persistence API) 왜 요즘 JPA를 선호할까? ORM(object-Relational Mapping) 이라는 개념은 내 기억에는 15년 전까지 거슬러 올라갔어도. 있었던 개념이었던거 같다. 초창기에는 hibernate 라는 기술이 있었다. 참 신선했던" />
     <meta name="twitter:url" content="https://joo-pe.github.io/" />
     <meta name="twitter:image" content="https://joo-pe.github.io/assets/built/images/develop/develop-1.jpg" />
     <meta name="twitter:label1" content="Written by" />
@@ -98,7 +98,7 @@
         "@type": "WebPage",
         "@id": "https://joo-pe.github.io/develop-1"
     },
-    "description": "JPA 관련 다음과 같은 내용을 볼 수 있습니다. 왜 JPA 인가? JPA 연관관계가 왜 중요한가? var i; const a; JPA(Java Persistence API) 왜 요즘 JPA를 선호할까? ORM(object-Relational Mapping) 이라는 개념은 내 기억에는 15년 전까지 거슬러 올라갔어도. 있었던 개념이었던거 같다. 초창기에는 hibernate 라는 기술이 있었다. 참 신선했던 기억이 있었다. 클래스와 DB와"
+    "description": "JPA 관련 다음과 같은 내용을 볼 수 있습니다. 왜 JPA 인가? JPA 연관관계가 왜 중요한가? JPA 프록시 객체지향 쿼리 var i; const a; JPA(Java Persistence API) 왜 요즘 JPA를 선호할까? ORM(object-Relational Mapping) 이라는 개념은 내 기억에는 15년 전까지 거슬러 올라갔어도. 있었던 개념이었던거 같다. 초창기에는 hibernate 라는 기술이 있었다. 참 신선했던"
 }
     </script>
 
@@ -199,6 +199,8 @@ into the {body} of the default.hbs template -->
 <ul class="table-of-contents-list">
     <li><a href="./develop-1">왜 JPA 인가?</a></li>
     <li><a href="./develop-2">JPA 연관관계가 왜 중요한가? </a></li>
+    <li><a href="./develop-3">JPA 프록시 </a></li>
+    <li><a href="./develop-4">객체지향 쿼리 </a></li>
 </ul>
 
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">i</span><span class="p">;</span>
@@ -370,6 +372,24 @@ JPA를 사용하면 일단 어플리케이션에서 자유자재로 다양한 DB
                                     
                                         
                                         
+                                            <li><a href="/develop-4">객체지향 쿼리</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/develop-3">JPA 프록시</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
                                             <li><a href="/develop-2">JPA 연관관계가 왜 중요한가?</a></li>
                                         
                                     
@@ -398,7 +418,7 @@ JPA를 사용하면 일단 어플리케이션에서 자유자재로 다양한 DB
                         <footer class="read-next-card-footer">
                             <a href="/tag/develop/">
                                 
-                                    See all 1 posts  →
+                                    See all 3 posts  →
                                 
                             </a>
                         </footer>

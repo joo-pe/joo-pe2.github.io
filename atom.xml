@@ -8,12 +8,56 @@
     
       
       <item>
+        <title>객체지향 쿼리</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;JPA 관련 다음과 같은 내용을 볼 수 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./develop-1&quot;&gt;왜 JPA 인가?&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./develop-2&quot;&gt;JPA 연관관계가 왜 중요한가? &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./develop-3&quot;&gt;JPA 프록시 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./develop-4&quot;&gt;객체지향 쿼리 &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Fri, 29 Jan 2021 01:40:00 +0900</pubDate>
+        <link>
+        https://joo-pe.github.io/develop-4</link>
+        <guid isPermaLink="true">https://joo-pe.github.io/develop-4</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>JPA 프록시</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;JPA 관련 다음과 같은 내용을 볼 수 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./develop-1&quot;&gt;왜 JPA 인가?&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./develop-2&quot;&gt;JPA 연관관계가 왜 중요한가? &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./develop-3&quot;&gt;JPA 프록시 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./develop-4&quot;&gt;객체지향 쿼리 &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Tue, 26 Jan 2021 01:40:00 +0900</pubDate>
+        <link>
+        https://joo-pe.github.io/develop-3</link>
+        <guid isPermaLink="true">https://joo-pe.github.io/develop-3</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>JPA 연관관계가 왜 중요한가?</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;JPA 관련 다음과 같은 내용을 볼 수 있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./develop-1&quot;&gt;왜 JPA 인가?&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./develop-2&quot;&gt;JPA 연관관계가 왜 중요한가? &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./develop-3&quot;&gt;JPA 프록시 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./develop-4&quot;&gt;객체지향 쿼리 &lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
@@ -33,6 +77,8 @@
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./develop-1&quot;&gt;왜 JPA 인가?&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./develop-2&quot;&gt;JPA 연관관계가 왜 중요한가? &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./develop-3&quot;&gt;JPA 프록시 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./develop-4&quot;&gt;객체지향 쿼리 &lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
