@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="https://joo-pe.github.io/tag/develop/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://joo-pe.github.io/" rel="alternate" type="text/html" />
-  <updated>2021-02-01T08:33:54+09:00</updated>
+  <updated>2021-02-07T22:25:47+09:00</updated>
   <id>https://joo-pe.github.io/tag/develop/feed.xml</id>
 
   
@@ -30,6 +30,45 @@
   
   
 
+  
+    <entry>
+      <title type="html">kakao api 연동</title>
+      <link href="https://joo-pe.github.io/develop-5" rel="alternate" type="text/html" title="kakao api 연동" />
+      <published>2021-01-29T01:40:00+09:00</published>
+      <updated>2021-01-29T01:40:00+09:00</updated>
+      <id>https://joo-pe.github.io/develop-5</id>
+      <content type="html" xml:base="https://joo-pe.github.io/develop-5">&lt;h3 id=&quot;ncp-kakao-api-연동&quot;&gt;NCP kakao api 연동&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;인증키를 받는다.&lt;/li&gt;
+  &lt;li&gt;헤더에 인증키를 넣고 요청을 보내면 알림톡이 당사자에게 발송된다.&lt;/li&gt;
+&lt;/ol&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Joo-pe</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="develop" />
+      
+
+      
+        <summary type="html">NCP kakao api 연동</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">객체지향 쿼리</title>
@@ -60,7 +99,9 @@ Criteria 쿼리는 JPQL을 편하게 작성하도록 도와주는 API, 빌더 �
 Criteria 쿼리의 장점은 문자가 아닌 query.select(m),where(…) 처럼 프로그래밍 코드로 JPQL을 작성할 수 있다는 장점이 있다.
 하지만 Criteria 가 가진 장점은 많지만 너무 복잡하고, 한눈에 보이지도 않는다.&lt;/p&gt;
 
-&lt;p&gt;그래서 많이 사용하는 것이 QueryDSL 이다.&lt;/p&gt;</content>
+&lt;p&gt;그래서 많이 사용하는 것이 QueryDSL 이다.&lt;/p&gt;
+
+&lt;h4 id=&quot;querydsl&quot;&gt;QueryDSL&lt;/h4&gt;</content>
 
       
       
@@ -69,7 +110,7 @@ Criteria 쿼리의 장점은 문자가 아닌 query.select(m),where(…) 처럼 
       
 
       <author>
-          <name>Joohyung Park</name>
+          <name>Joo-pe</name>
         
         
       </author>
@@ -148,7 +189,7 @@ Criteria 쿼리의 장점은 문자가 아닌 query.select(m),where(…) 처럼 
       
 
       <author>
-          <name>Joohyung Park</name>
+          <name>Joo-pe</name>
         
         
       </author>
@@ -233,7 +274,7 @@ Criteria 쿼리의 장점은 문자가 아닌 query.select(m),where(…) 처럼 
       
 
       <author>
-          <name>Joohyung Park</name>
+          <name>Joo-pe</name>
         
         
       </author>
@@ -328,7 +369,7 @@ JPA를 사용하면 일단 어플리케이션에서 자유자재로 다양한 DB
       
 
       <author>
-          <name>Joohyung Park</name>
+          <name>Joo-pe</name>
         
         
       </author>
