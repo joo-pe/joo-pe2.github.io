@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="https://joo-pe.github.io/tag/develop/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://joo-pe.github.io/" rel="alternate" type="text/html" />
-  <updated>2021-02-13T11:30:45+09:00</updated>
+  <updated>2021-02-13T20:33:55+09:00</updated>
   <id>https://joo-pe.github.io/tag/develop/feed.xml</id>
 
   
@@ -254,7 +254,7 @@ Criteria 쿼리의 장점은 문자가 아닌 query.select(m),where(…) 처럼 
 주인을 명하는 이유는 키를 한곳에서만 관리하자는 측면을 위해서 있는 개념이다.
 주인인 곳에서는 mappedBy 속성을 사용하지 않는다.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;assets/built/images/develop/img02.png&quot; alt=&quot;img.png2&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/built/images/develop/develop-3.png&quot; alt=&quot;img.png2&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;방향성에는 단방향과 양방향이 있는데, 단방향은 한쪽 참조라면 보고,
 양방향이 헤갈릴 수도 있는데

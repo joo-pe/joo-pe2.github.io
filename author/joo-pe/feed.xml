@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="https://joo-pe.github.io/author/joo-pe/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://joo-pe.github.io/" rel="alternate" type="text/html" />
-  <updated>2021-02-13T11:30:45+09:00</updated>
+  <updated>2021-02-13T20:33:55+09:00</updated>
   <id>https://joo-pe.github.io/author/joo-pe/feed.xml</id>
 
   
@@ -32,96 +32,110 @@
 
   
     <entry>
-      <title type="html">BlockChain</title>
-      <link href="https://joo-pe.github.io/blockchain-2" rel="alternate" type="text/html" title="BlockChain" />
+      <title type="html">블록체인 기술은 죽지 않았다.</title>
+      <link href="https://joo-pe.github.io/blockchain-3" rel="alternate" type="text/html" title="블록체인 기술은 죽지 않았다." />
+      <published>2021-02-12T19:40:00+09:00</published>
+      <updated>2021-02-12T19:40:00+09:00</updated>
+      <id>https://joo-pe.github.io/blockchain-3</id>
+      <content type="html" xml:base="https://joo-pe.github.io/blockchain-3">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Blockchain core 를 알아보자 &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-1&quot;&gt;Bitcoin 지갑&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-2&quot;&gt;가상화폐의 변&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-3&quot;&gt;블록체인 기술은 아직 죽지 않았다&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;블록체인-기술은-어떻게-바라봐야-하는가&quot;&gt;블록체인 기술은 어떻게 바라봐야 하는가?&lt;/h2&gt;
+
+&lt;p&gt;블록체인 기술을 검색해보면 이해 될 듯 말듯 하다.
+가상화폐로 엮여서 부정적 이미지가 있는거 같으면서도 계속해서 블록체인 기술은 언급되고 있다.
+왜 블록체인 기술은 계속 언급 되고 있는 것일까.
+&lt;strong&gt;하나의 관점으로만 블록체인을 볼 것이 아니라 다양항 관점에서 봐야 할 것이다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;분산-저장&quot;&gt;분산 저장&lt;/h3&gt;
+
+&lt;p&gt;요즘은 굉장히 많은 데이터가 저장된다. 통신의 속도도 빨라졌다. 천문학적인 데이터의 이동과 저장이 필요하다.
+이 관점에서 분산 저장의 기술이 필요하다. 이 관점으로 블록체인을 볼 수 있다.
+분산 저장 관점으로는 어떤 서비스들이 가능할 것인가? 분산 저장이라는 개념은 오래 전부터 있었다. 
+이 것을 블록체인으로 볼 수 있는 건 아닐까? 분산 저장의 이유가 없는 서비스에서 블록체인을 언급하면 안된다.
+한 데이터베이스에 저장 할 수 있다면 그게 더 속도가 빠르지 않겠는가&lt;/p&gt;
+
+&lt;h3 id=&quot;보상&quot;&gt;보상&lt;/h3&gt;
+
+&lt;p&gt;이 서비스를 이용하면 댓가를 준다. 그 댓가는 모여서 현금성이 가능하다.
+어떤가? 이 보상은 블록체인의 큰 매력이 될 수 있다.&lt;/p&gt;
+
+&lt;h3 id=&quot;p2p-네트워크&quot;&gt;p2p 네트워크&lt;/h3&gt;
+
+&lt;p&gt;중앙 서버가 없이 p2p 통신이라는 개념은 오래 예전부터 있었다.
+중앙 통제에서 벗어나는 , 탈중앙화가 블록체인의 핵심 요소 인거 모두가 다 잘 알지 않은가.
+p2p가 대세가 될 가능성이 높다. 이 관점에서 블록체인의 성장 가능성을 높게 볼 수 있다.&lt;/p&gt;
+
+&lt;h2 id=&quot;블록체인-기술의-성장-방향은&quot;&gt;블록체인 기술의 성장 방향은?&lt;/h2&gt;
+
+&lt;p&gt;이런 다양한 관점이 모여서 블록체인 기반으로 다양한 서비스를 만들어 보려고 시도가 되었다.
+어떤 관점으로 서비스를 만드냐에 따라 가능성이 점쳐지고 있다.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Joo-pe</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="itstory" />
+      
+
+      
+        <summary type="html">Blockchain core 를 알아보자 Bitcoin 지갑 가상화폐의 변 블록체인 기술은 아직 죽지 않았다</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">가상화폐의 변화 시작</title>
+      <link href="https://joo-pe.github.io/blockchain-2" rel="alternate" type="text/html" title="가상화폐의 변화 시작" />
       <published>2021-02-12T01:40:00+09:00</published>
       <updated>2021-02-12T01:40:00+09:00</updated>
       <id>https://joo-pe.github.io/blockchain-2</id>
-      <content type="html" xml:base="https://joo-pe.github.io/blockchain-2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Blockchain core 를 알아보 &lt;/span&gt;&lt;/p&gt;
+      <content type="html" xml:base="https://joo-pe.github.io/blockchain-2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Blockchain core 를 알아보자 &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./blockchain-1&quot;&gt;bitcoin의 이해&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./blockchain-2&quot;&gt;bitcoin의 통신 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-1&quot;&gt;Bitcoin 지갑&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-2&quot;&gt;가상화폐의 변&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-3&quot;&gt;블록체인 기술은 아직 죽지 않았다&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;블록체인 연습중 2&lt;/p&gt;</content>
+&lt;h3 id=&quot;특정금융거래정보의-보고-및-이용-등에-관한-법률특금법&quot;&gt;특정금융거래정보의 보고 및 이용 등에 관한 법률(특금법)&lt;/h3&gt;
 
-      
-      
-      
-      
-      
+&lt;p&gt;가상화폐가 드디어 컴플리언스 안으로 들어오게 된다.
+그 첫 단추가 특금법이다. 사회가 부정하던 가상화폐를 처음으로 인정하는 셈 칠수도 있는 것이다.
+가상화폐는 ‘디지털 가치 저장 수단’으로서 가치를 인정받게 된거라고 할 수 있다.&lt;/p&gt;
 
-      <author>
-          <name>Joo-pe</name>
-        
-        
-      </author>
+&lt;h2 id=&quot;법의-목적&quot;&gt;법의 목적&lt;/h2&gt;
 
-      
+&lt;p&gt;기존 법의 ‘금융거래’를 ‘금융거래 등’으로 수정해 암호화폐를 추가했다.
+특금법에 따라 금융기관 등에서 이상거래 등을 감지하여 수사기관·국세청에 통보를 하여 수집한 정보를 바탕으로 수사기관에서는 형법·국세청에서는 세법과 연관하여 업무를 진행한다.&lt;/p&gt;
 
-      
-        <category term="itstory" />
-      
+&lt;h2 id=&quot;사업자-등록&quot;&gt;사업자 등록&lt;/h2&gt;
 
-      
-        <summary type="html">Blockchain core 를 알아보 bitcoin의 이해 bitcoin의 통신</summary>
-      
+&lt;p&gt;특금법상의 가상자산 사업자는 “가상자산의 매도∙매수 행위, 교환 ∙ 이전 행위, 알선 등(하략)”을 영업으로 하는 자로 정의되어 있으며, 가상자산사업자에 해당되는 사업자는 2021년 9월 24일까지 금융정보분석원에 신고해야 한다
+가상자산 사업자는 현재에도 사업자등록증상에 ‘블록체인 기반 암호화 자산 매매 및 중개업’ ‘블록체인 기술관련 기타 정보서비스업’ (한국표준산업분류 – 기타정보서비스업)으로 아무런 사전 서류없이 업종 등록할 수 있다. 그러나 실무적으로는 사업자등록증 상에 해당 업종을 기입하는 순간에 사업자(법인) 계좌 개설부터 어려워진다. 특금법이 시행은 2021년 3월 25일부터지만, 가상자산 사업자 신고 유예기간 6개월로 인해 실질적으로는 2021년 9월 24일부터 적용될 것이다&lt;/p&gt;
 
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">BlockChain</title>
-      <link href="https://joo-pe.github.io/blockchain-1" rel="alternate" type="text/html" title="BlockChain" />
-      <published>2021-02-10T01:40:00+09:00</published>
-      <updated>2021-02-10T01:40:00+09:00</updated>
-      <id>https://joo-pe.github.io/blockchain-1</id>
-      <content type="html" xml:base="https://joo-pe.github.io/blockchain-1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Blockchain core 를 알아보 &lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./blockchain-1&quot;&gt;bitcoin의 이해&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./blockchain-2&quot;&gt;bitcoin의 통신 &lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;블록체인 연습중&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Joo-pe</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="itstory" />
-      
-
-      
-        <summary type="html">Blockchain core 를 알아보 bitcoin의 이해 bitcoin의 통신</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">kakao api 연동</title>
-      <link href="https://joo-pe.github.io/develop-5" rel="alternate" type="text/html" title="kakao api 연동" />
-      <published>2021-01-29T01:40:00+09:00</published>
-      <updated>2021-01-29T01:40:00+09:00</updated>
-      <id>https://joo-pe.github.io/develop-5</id>
-      <content type="html" xml:base="https://joo-pe.github.io/develop-5">&lt;h3 id=&quot;ncp-kakao-api-연동&quot;&gt;NCP kakao api 연동&lt;/h3&gt;
+&lt;h2 id=&quot;특금법-시작에-따른-대처&quot;&gt;특금법 시작에 따른 대처&lt;/h2&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;인증키를 받는다.&lt;/li&gt;
-  &lt;li&gt;헤더에 인증키를 넣고 요청을 보내면 알림톡이 당사자에게 발송된다.&lt;/li&gt;
+  &lt;li&gt;블록체인의 인식이 바뀔 것이다.&lt;/li&gt;
+  &lt;li&gt;적법한 가상화폐업자만 살아 남을 것이다.&lt;/li&gt;
+  &lt;li&gt;사설 코인이 실제 가치가 인정되는 길이 열렸다.&lt;/li&gt;
 &lt;/ol&gt;</content>
 
       
@@ -139,11 +153,57 @@
       
 
       
-        <category term="develop" />
+        <category term="itstory" />
       
 
       
-        <summary type="html">NCP kakao api 연동</summary>
+        <summary type="html">Blockchain core 를 알아보자 Bitcoin 지갑 가상화폐의 변 블록체인 기술은 아직 죽지 않았다</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Bitcoin 지갑</title>
+      <link href="https://joo-pe.github.io/blockchain-1" rel="alternate" type="text/html" title="Bitcoin 지갑" />
+      <published>2021-02-10T01:40:00+09:00</published>
+      <updated>2021-02-10T01:40:00+09:00</updated>
+      <id>https://joo-pe.github.io/blockchain-1</id>
+      <content type="html" xml:base="https://joo-pe.github.io/blockchain-1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Blockchain core 를 알아보자 &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-1&quot;&gt;Bitcoin 지갑&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-2&quot;&gt;가상화폐의 변&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-3&quot;&gt;블록체인 기술은 아직 죽지 않았다&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;bitcoin-참고-소스&quot;&gt;bitcoin 참고 소스&lt;/h3&gt;
+
+&lt;p&gt;bitcoinj 프로젝트를 참고하였다.
+bitcoinj는 비트 코인 프로토콜 작업을위한 라이브러리다. 
+비트 코인 코어의 로컬 사본없이 지갑을 유지하고 트랜잭션을 송수신 할 수 있으며 다른 많은 고급 기능이 있습니다. 
+Java로 구현되지만 모든 JVM 호환 언어에서 사용할 수 있다.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Joo-pe</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="itstory" />
+      
+
+      
+        <summary type="html">Blockchain core 를 알아보자 Bitcoin 지갑 가상화폐의 변 블록체인 기술은 아직 죽지 않았다</summary>
       
 
       
@@ -210,6 +270,45 @@ Criteria 쿼리의 장점은 문자가 아닌 query.select(m),where(…) 처럼 
     </entry>
   
     <entry>
+      <title type="html">kakao api 연동</title>
+      <link href="https://joo-pe.github.io/develop-5" rel="alternate" type="text/html" title="kakao api 연동" />
+      <published>2021-01-29T01:40:00+09:00</published>
+      <updated>2021-01-29T01:40:00+09:00</updated>
+      <id>https://joo-pe.github.io/develop-5</id>
+      <content type="html" xml:base="https://joo-pe.github.io/develop-5">&lt;h3 id=&quot;ncp-kakao-api-연동&quot;&gt;NCP kakao api 연동&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;인증키를 받는다.&lt;/li&gt;
+  &lt;li&gt;헤더에 인증키를 넣고 요청을 보내면 알림톡이 당사자에게 발송된다.&lt;/li&gt;
+&lt;/ol&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Joo-pe</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="develop" />
+      
+
+      
+        <summary type="html">NCP kakao api 연동</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">JPA 연관관계가 왜 중요한가?</title>
       <link href="https://joo-pe.github.io/develop-2" rel="alternate" type="text/html" title="JPA 연관관계가 왜 중요한가?" />
       <published>2021-01-26T01:40:00+09:00</published>
@@ -255,7 +354,7 @@ Criteria 쿼리의 장점은 문자가 아닌 query.select(m),where(…) 처럼 
 주인을 명하는 이유는 키를 한곳에서만 관리하자는 측면을 위해서 있는 개념이다.
 주인인 곳에서는 mappedBy 속성을 사용하지 않는다.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;assets/built/images/develop/img02.png&quot; alt=&quot;img.png2&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/built/images/develop/develop-3.png&quot; alt=&quot;img.png2&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;방향성에는 단방향과 양방향이 있는데, 단방향은 한쪽 참조라면 보고,
 양방향이 헤갈릴 수도 있는데
@@ -509,18 +608,18 @@ JPA를 사용하면 일단 어플리케이션에서 자유자재로 다양한 DB
     </entry>
   
     <entry>
-      <title type="html">Block chain</title>
-      <link href="https://joo-pe.github.io/license-2" rel="alternate" type="text/html" title="Block chain" />
+      <title type="html">인공지능모형</title>
+      <link href="https://joo-pe.github.io/ai-2" rel="alternate" type="text/html" title="인공지능모형" />
       <published>2021-01-10T01:40:00+09:00</published>
       <updated>2021-01-10T01:40:00+09:00</updated>
-      <id>https://joo-pe.github.io/license-2</id>
-      <content type="html" xml:base="https://joo-pe.github.io/license-2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;licence 관련 다음과 같은 내용을 볼 수 있습니다. &lt;/span&gt;&lt;/p&gt;
+      <id>https://joo-pe.github.io/ai-2</id>
+      <content type="html" xml:base="https://joo-pe.github.io/ai-2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;인공지능 관련 다음과 같은 내용을 볼 수 있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-1&quot;&gt;기술사&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-2&quot;&gt;정보처리기사&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./ai-1&quot;&gt;결측치처리&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./ai-2&quot;&gt;인공지능모형 &lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;블록체인 합의알고리즘으로 진행된다.&lt;/p&gt;</content>
+&lt;p&gt;모형의 알고리즘은 지도학습, 비지도학습 , 강화학습으로 나눌수 있다.&lt;/p&gt;</content>
 
       
       
@@ -537,51 +636,11 @@ JPA를 사용하면 일단 어플리케이션에서 자유자재로 다양한 DB
       
 
       
-        <category term="license" />
+        <category term="ai" />
       
 
       
-        <summary type="html">licence 관련 다음과 같은 내용을 볼 수 있습니다. 기술사 정보처리기사</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">SDN</title>
-      <link href="https://joo-pe.github.io/license-1" rel="alternate" type="text/html" title="SDN" />
-      <published>2021-01-10T01:40:00+09:00</published>
-      <updated>2021-01-10T01:40:00+09:00</updated>
-      <id>https://joo-pe.github.io/license-1</id>
-      <content type="html" xml:base="https://joo-pe.github.io/license-1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;licence 관련 다음과 같은 내용을 볼 수 있습니다. &lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-1&quot;&gt;기술사&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-2&quot;&gt;정보처리기사&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;github blog continue&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Joo-pe</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="license" />
-      
-
-      
-        <summary type="html">licence 관련 다음과 같은 내용을 볼 수 있습니다. 기술사 정보처리기사</summary>
+        <summary type="html">인공지능 관련 다음과 같은 내용을 볼 수 있습니다. 결측치처리 인공지능모형</summary>
       
 
       

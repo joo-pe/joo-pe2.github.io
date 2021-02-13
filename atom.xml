@@ -8,12 +8,33 @@
     
       
       <item>
-        <title>BlockChain</title>
+        <title>블록체인 기술은 죽지 않았다.</title>
         
-          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Blockchain core 를 알아보 &lt;/span&gt;&lt;/p&gt;
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Blockchain core 를 알아보자 &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./blockchain-1&quot;&gt;bitcoin의 이해&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./blockchain-2&quot;&gt;bitcoin의 통신 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-1&quot;&gt;Bitcoin 지갑&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-2&quot;&gt;가상화폐의 변&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-3&quot;&gt;블록체인 기술은 아직 죽지 않았다&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Fri, 12 Feb 2021 19:40:00 +0900</pubDate>
+        <link>
+        https://joo-pe.github.io/blockchain-3</link>
+        <guid isPermaLink="true">https://joo-pe.github.io/blockchain-3</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>가상화폐의 변화 시작</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Blockchain core 를 알아보자 &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-1&quot;&gt;Bitcoin 지갑&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-2&quot;&gt;가상화폐의 변&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-3&quot;&gt;블록체인 기술은 아직 죽지 않았다&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
@@ -27,12 +48,13 @@
     
       
       <item>
-        <title>BlockChain</title>
+        <title>Bitcoin 지갑</title>
         
-          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Blockchain core 를 알아보 &lt;/span&gt;&lt;/p&gt;
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Blockchain core 를 알아보자 &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./blockchain-1&quot;&gt;bitcoin의 이해&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./blockchain-2&quot;&gt;bitcoin의 통신 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-1&quot;&gt;Bitcoin 지갑&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-2&quot;&gt;가상화폐의 변&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-3&quot;&gt;블록체인 기술은 아직 죽지 않았다&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
@@ -204,10 +226,11 @@
       <item>
         <title>BlockChain</title>
         
-          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Blockchain core 를 알아보 &lt;/span&gt;&lt;/p&gt;
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Blockchain core 를 알아보자 &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./blockchain-1&quot;&gt;bitcoin의 이해&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./blockchain-2&quot;&gt;bitcoin의 통신 &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-1&quot;&gt;Bitcoin 지갑&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-2&quot;&gt;가상화폐의 변&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-3&quot;&gt;블록체인 기술은 아직 죽지 않았다&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
