@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="https://joo-pe.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://joo-pe.github.io/" rel="alternate" type="text/html" /><updated>2021-02-13T20:56:35+09:00</updated><id>https://joo-pe.github.io/</id><title type="html">Joo’s Blog</title><subtitle>Professional Engineer</subtitle><entry><title type="html">블록체인 기술은 죽지 않았다.</title><link href="https://joo-pe.github.io/blockchain-3" rel="alternate" type="text/html" title="블록체인 기술은 죽지 않았다." /><published>2021-02-12T19:40:00+09:00</published><updated>2021-02-12T19:40:00+09:00</updated><id>https://joo-pe.github.io/blockchain-3</id><content type="html" xml:base="https://joo-pe.github.io/blockchain-3">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Blockchain core 를 알아보자 &lt;/span&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="https://joo-pe.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://joo-pe.github.io/" rel="alternate" type="text/html" /><updated>2021-02-13T22:36:00+09:00</updated><id>https://joo-pe.github.io/</id><title type="html">Joo’s Blog</title><subtitle>Professional Engineer</subtitle><entry><title type="html">블록체인 기술은 죽지 않았다.</title><link href="https://joo-pe.github.io/blockchain-3" rel="alternate" type="text/html" title="블록체인 기술은 죽지 않았다." /><published>2021-02-12T19:40:00+09:00</published><updated>2021-02-12T19:40:00+09:00</updated><id>https://joo-pe.github.io/blockchain-3</id><content type="html" xml:base="https://joo-pe.github.io/blockchain-3">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Blockchain core 를 알아보자 &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./blockchain-1&quot;&gt;Bitcoin 지갑&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./blockchain-2&quot;&gt;가상화폐의 변&lt;/a&gt;&lt;/li&gt;
@@ -63,7 +63,11 @@ p2p가 대세가 될 가능성이 높다. 이 관점에서 블록체인의 성�
   &lt;li&gt;블록체인의 인식이 바뀔 것이다.&lt;/li&gt;
   &lt;li&gt;적법한 가상화폐업자만 살아 남을 것이다.&lt;/li&gt;
   &lt;li&gt;사설 코인이 실제 가치가 인정되는 길이 열렸다.&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Joo-pe</name></author><category term="itstory" /><summary type="html">Blockchain core 를 알아보자 Bitcoin 지갑 가상화폐의 변 블록체인 기술은 아직 죽지 않았다</summary></entry><entry><title type="html">Bitcoin 지갑</title><link href="https://joo-pe.github.io/blockchain-1" rel="alternate" type="text/html" title="Bitcoin 지갑" /><published>2021-02-10T01:40:00+09:00</published><updated>2021-02-10T01:40:00+09:00</updated><id>https://joo-pe.github.io/blockchain-1</id><content type="html" xml:base="https://joo-pe.github.io/blockchain-1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Blockchain core 를 알아보자 &lt;/span&gt;&lt;/p&gt;
+&lt;/ol&gt;</content><author><name>Joo-pe</name></author><category term="itstory" /><summary type="html">Blockchain core 를 알아보자 Bitcoin 지갑 가상화폐의 변 블록체인 기술은 아직 죽지 않았다</summary></entry><entry><title type="html">정보처리기사</title><link href="https://joo-pe.github.io/license-2" rel="alternate" type="text/html" title="정보처리기사" /><published>2021-02-10T01:40:00+09:00</published><updated>2021-02-10T01:40:00+09:00</updated><id>https://joo-pe.github.io/license-2</id><content type="html" xml:base="https://joo-pe.github.io/license-2">&lt;p&gt;[ 출간 예정 ]&lt;/p&gt;
+
+&lt;p&gt;정보처리기사 - 한방에 합격하는 정보처리기사(정한방)-(2021) &lt;a href=&quot;https://cafe.naver.com/pass1try&quot;&gt;카페&lt;/a&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;시작합니다.&lt;/p&gt;</content><author><name>Joo-pe</name></author><category term="license" /><summary type="html">[ 출간 예정 ]</summary></entry><entry><title type="html">Bitcoin 지갑</title><link href="https://joo-pe.github.io/blockchain-1" rel="alternate" type="text/html" title="Bitcoin 지갑" /><published>2021-02-10T01:40:00+09:00</published><updated>2021-02-10T01:40:00+09:00</updated><id>https://joo-pe.github.io/blockchain-1</id><content type="html" xml:base="https://joo-pe.github.io/blockchain-1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Blockchain core 를 알아보자 &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./blockchain-1&quot;&gt;Bitcoin 지갑&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./blockchain-2&quot;&gt;가상화폐의 변&lt;/a&gt;&lt;/li&gt;
@@ -88,7 +92,86 @@ Wallet :  저장할 수 ECKey의 및 기타 데이터를.
 PeerGroup : 네트워크 연결을 관리 하는 인스턴스입니다.
 BlockChain : 비트 코인을 작동시키는 공유 글로벌 데이터 구조를 관리 하는 인스턴스.
 BlockStore : 디스크와 같은 어딘가에 블록 체인 데이터 구조를 유지 하는 인스턴스.
-WalletEventListener : 지갑 이벤트를 수신하는 구현.&lt;/p&gt;</content><author><name>Joo-pe</name></author><category term="itstory" /><summary type="html">Blockchain core 를 알아보자 Bitcoin 지갑 가상화폐의 변 블록체인 기술은 아직 죽지 않았다</summary></entry><entry><title type="html">kakao api 연동</title><link href="https://joo-pe.github.io/develop-5" rel="alternate" type="text/html" title="kakao api 연동" /><published>2021-01-29T01:40:00+09:00</published><updated>2021-01-29T01:40:00+09:00</updated><id>https://joo-pe.github.io/develop-5</id><content type="html" xml:base="https://joo-pe.github.io/develop-5">&lt;h3 id=&quot;ncp-kakao-api-연동&quot;&gt;NCP kakao api 연동&lt;/h3&gt;
+WalletEventListener : 지갑 이벤트를 수신하는 구현.&lt;/p&gt;</content><author><name>Joo-pe</name></author><category term="itstory" /><summary type="html">Blockchain core 를 알아보자 Bitcoin 지갑 가상화폐의 변 블록체인 기술은 아직 죽지 않았다</summary></entry><entry><title type="html">정보관리기술사 &amp;amp; 컴퓨터시스템응용기술사</title><link href="https://joo-pe.github.io/license-1" rel="alternate" type="text/html" title="정보관리기술사 &amp; 컴퓨터시스템응용기술사" /><published>2021-02-02T01:40:00+09:00</published><updated>2021-02-02T01:40:00+09:00</updated><id>https://joo-pe.github.io/license-1</id><content type="html" xml:base="https://joo-pe.github.io/license-1">&lt;p&gt;KPC / ITPE 기술사 멘토를 진행하였고, &lt;br /&gt;
+현재는 오프라인 수업은 진행하지 않고, &lt;br /&gt;
+언텍트 비대면 기술사 학습을 지원해 드리고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;[기술사 학습 Slack 운영 중]&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;기술사 학습 프로젝트 이름&lt;/strong&gt; : &lt;strong&gt;Next&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;프로젝트&lt;/strong&gt; : 양방향 비대면 기술사 학습 커뮤니티 (정보관리기술사 &amp;amp; 컴퓨터시스템응용기술사)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;참여 기술사님&lt;/strong&gt; : 5분의 기술사님&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;대상&lt;/strong&gt; : 기술사 준비 중인 분들은 모두 참여 가능 &lt;br /&gt;
+      대신, 지속해서 해당 slack 으로 학습 참여가 가능하신 분 이어야 합니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;학습 지원&lt;/strong&gt; :&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;신트랜드에 맞춘 토픽리스트 제공&lt;/li&gt;
+      &lt;li&gt;일일셀테 답안 멘토링&lt;/li&gt;
+      &lt;li&gt;신규토픽 자료 공유&lt;/li&gt;
+      &lt;li&gt;일일 2교시형 목차잡기 자동 push bot 운영&lt;/li&gt;
+      &lt;li&gt;일일 토픽 암기 자동 push bot 운영&lt;/li&gt;
+      &lt;li&gt;비대면 주간 모의고사 100분 원격 시험 : 채점,멘토링 지원&lt;/li&gt;
+      &lt;li&gt;비대면 학습 토론 지원&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;비용&lt;/strong&gt; : 무료
+    &lt;ul&gt;
+      &lt;li&gt;(단, slack이 무료인 관계로 유료 기능 필요시 비용이 발생할 수 있습니다. &lt;br /&gt;
+향후 유료 컨텐츠가 있을 경우 비용이 논의 될 수 있습니다)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Slack 학습 시작일&lt;/strong&gt; : 2021년 3월 1일&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;학습 방식&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;온라인 비대면 시험&lt;/li&gt;
+      &lt;li&gt;slack 을 통한 365일 양방향 소통 스터디&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;이 글의 답글이나 메일 주소(joohyung1002@naver.com) 로 연락주시면 slack 에 초대해드리고 있습니다.
+해당 슬랙은 지식 공유 측면에서 개설된 비공식 커뮤니티 입니다.&lt;/p&gt;
+
+&lt;h4 id=&quot;기술사-멘토-유튜브&quot;&gt;기술사 멘토 유튜브&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCS63caBU8R3985Klba8zrzg&quot;&gt;joo-pe&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;비대면-기술사-학습-slack-운영-현황&quot;&gt;비대면 기술사 학습 slack 운영 현황&lt;/h4&gt;
+
+&lt;p&gt;ns-ngq9107.slack.com
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/built/images/license/image11.png&quot; width=&quot;600&quot; height=&quot;370&quot; /&gt;
+&lt;br /&gt;
+&lt;img src=&quot;../assets/built/images/license/image22.png&quot; width=&quot;600&quot; height=&quot;370&quot; /&gt;
+&lt;br /&gt;
+&lt;img src=&quot;../assets/built/images/license/image44.png&quot; width=&quot;600&quot; height=&quot;370&quot; /&gt;
+&lt;br /&gt;
+&lt;img src=&quot;../assets/built/images/license/image55.png&quot; width=&quot;600&quot; height=&quot;370&quot; /&gt;
+&lt;br /&gt;
+&lt;img src=&quot;../assets/built/images/license/image66.png&quot; width=&quot;600&quot; height=&quot;370&quot; /&gt;
+&lt;br /&gt;
+&lt;img src=&quot;../assets/built/images/license/image77.png&quot; width=&quot;600&quot; height=&quot;370&quot; /&gt;
+&lt;br /&gt;
+&lt;img src=&quot;../assets/built/images/license/image88.png&quot; width=&quot;600&quot; height=&quot;370&quot; /&gt;
+&lt;br /&gt;
+&lt;img src=&quot;../assets/built/images/license/image99.png&quot; width=&quot;600&quot; height=&quot;370&quot; /&gt;
+&lt;br /&gt;
+&lt;img src=&quot;../assets/built/images/license/image999.png&quot; width=&quot;600&quot; height=&quot;370&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;</content><author><name>Joo-pe</name></author><category term="license" /><summary type="html">KPC / ITPE 기술사 멘토를 진행하였고, 현재는 오프라인 수업은 진행하지 않고, 언텍트 비대면 기술사 학습을 지원해 드리고 있습니다.</summary></entry><entry><title type="html">kakao api 연동</title><link href="https://joo-pe.github.io/develop-5" rel="alternate" type="text/html" title="kakao api 연동" /><published>2021-01-29T01:40:00+09:00</published><updated>2021-01-29T01:40:00+09:00</updated><id>https://joo-pe.github.io/develop-5</id><content type="html" xml:base="https://joo-pe.github.io/develop-5">&lt;h3 id=&quot;ncp-kakao-api-연동&quot;&gt;NCP kakao api 연동&lt;/h3&gt;
 
 &lt;ol&gt;
   &lt;li&gt;인증키를 받는다.&lt;/li&gt;
@@ -275,16 +358,4 @@ JPA는 자바 ORM 기술에 대한 API 표준 명세이다.&lt;/p&gt;
 
 &lt;p&gt;데이터 독립성은 개념적, 논리적, 물리적으로 데이터가 분리되어야 한다는 속성이다.
 JPA를 사용하면 일단 어플리케이션에서 자유자재로 다양한 DBMS로 변경하여 붙힐 수 있다.
-이런 측면에서 이야기 해볼수 있지 않을까&lt;/p&gt;</content><author><name>Joo-pe</name></author><category term="develop" /><summary type="html">JPA 관련 다음과 같은 내용을 볼 수 있습니다. 왜 JPA 인가? JPA 연관관계가 왜 중요한가? JPA 프록시 객체지향 쿼리</summary></entry><entry><title type="html">Block chain</title><link href="https://joo-pe.github.io/license-2" rel="alternate" type="text/html" title="Block chain" /><published>2021-01-10T01:40:00+09:00</published><updated>2021-01-10T01:40:00+09:00</updated><id>https://joo-pe.github.io/license-2</id><content type="html" xml:base="https://joo-pe.github.io/license-2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;licence 관련 다음과 같은 내용을 볼 수 있습니다. &lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-1&quot;&gt;기술사&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-2&quot;&gt;정보처리기사&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;블록체인 합의알고리즘으로 진행된다.&lt;/p&gt;</content><author><name>Joo-pe</name></author><category term="license" /><summary type="html">licence 관련 다음과 같은 내용을 볼 수 있습니다. 기술사 정보처리기사</summary></entry><entry><title type="html">SDN</title><link href="https://joo-pe.github.io/license-1" rel="alternate" type="text/html" title="SDN" /><published>2021-01-10T01:40:00+09:00</published><updated>2021-01-10T01:40:00+09:00</updated><id>https://joo-pe.github.io/license-1</id><content type="html" xml:base="https://joo-pe.github.io/license-1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;licence 관련 다음과 같은 내용을 볼 수 있습니다. &lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-1&quot;&gt;기술사&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-2&quot;&gt;정보처리기사&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;github blog continue&lt;/p&gt;</content><author><name>Joo-pe</name></author><category term="license" /><summary type="html">licence 관련 다음과 같은 내용을 볼 수 있습니다. 기술사 정보처리기사</summary></entry></feed>
+이런 측면에서 이야기 해볼수 있지 않을까&lt;/p&gt;</content><author><name>Joo-pe</name></author><category term="develop" /><summary type="html">JPA 관련 다음과 같은 내용을 볼 수 있습니다. 왜 JPA 인가? JPA 연관관계가 왜 중요한가? JPA 프록시 객체지향 쿼리</summary></entry></feed>

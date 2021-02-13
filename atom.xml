@@ -48,6 +48,21 @@
     
       
       <item>
+        <title>정보처리기사</title>
+        
+          <description>&lt;p&gt;[ 출간 예정 ]&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 10 Feb 2021 01:40:00 +0900</pubDate>
+        <link>
+        https://joo-pe.github.io/license-2</link>
+        <guid isPermaLink="true">https://joo-pe.github.io/license-2</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Bitcoin 지갑</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Blockchain core 를 알아보자 &lt;/span&gt;&lt;/p&gt;
@@ -63,6 +78,23 @@
         <link>
         https://joo-pe.github.io/blockchain-1</link>
         <guid isPermaLink="true">https://joo-pe.github.io/blockchain-1</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>정보관리기술사 &amp; 컴퓨터시스템응용기술사</title>
+        
+          <description>&lt;p&gt;KPC / ITPE 기술사 멘토를 진행하였고, &lt;br /&gt;
+현재는 오프라인 수업은 진행하지 않고, &lt;br /&gt;
+언텍트 비대면 기술사 학습을 지원해 드리고 있습니다.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Tue, 02 Feb 2021 01:40:00 +0900</pubDate>
+        <link>
+        https://joo-pe.github.io/license-1</link>
+        <guid isPermaLink="true">https://joo-pe.github.io/license-1</guid>
       </item>
       
     
@@ -162,44 +194,6 @@
         <link>
         https://joo-pe.github.io/develop-1</link>
         <guid isPermaLink="true">https://joo-pe.github.io/develop-1</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>Block chain</title>
-        
-          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;licence 관련 다음과 같은 내용을 볼 수 있습니다. &lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-1&quot;&gt;기술사&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-2&quot;&gt;정보처리기사&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        
-        <pubDate>Sun, 10 Jan 2021 01:40:00 +0900</pubDate>
-        <link>
-        https://joo-pe.github.io/license-2</link>
-        <guid isPermaLink="true">https://joo-pe.github.io/license-2</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>SDN</title>
-        
-          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;licence 관련 다음과 같은 내용을 볼 수 있습니다. &lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-1&quot;&gt;기술사&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-2&quot;&gt;정보처리기사&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        
-        <pubDate>Sun, 10 Jan 2021 01:40:00 +0900</pubDate>
-        <link>
-        https://joo-pe.github.io/license-1</link>
-        <guid isPermaLink="true">https://joo-pe.github.io/license-1</guid>
       </item>
       
     

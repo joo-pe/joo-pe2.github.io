@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="https://joo-pe.github.io/tag/license/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://joo-pe.github.io/" rel="alternate" type="text/html" />
-  <updated>2021-02-13T20:56:35+09:00</updated>
+  <updated>2021-02-13T22:36:00+09:00</updated>
   <id>https://joo-pe.github.io/tag/license/feed.xml</id>
 
   
@@ -32,18 +32,16 @@
 
   
     <entry>
-      <title type="html">Block chain</title>
-      <link href="https://joo-pe.github.io/license-2" rel="alternate" type="text/html" title="Block chain" />
-      <published>2021-01-10T01:40:00+09:00</published>
-      <updated>2021-01-10T01:40:00+09:00</updated>
+      <title type="html">정보처리기사</title>
+      <link href="https://joo-pe.github.io/license-2" rel="alternate" type="text/html" title="정보처리기사" />
+      <published>2021-02-10T01:40:00+09:00</published>
+      <updated>2021-02-10T01:40:00+09:00</updated>
       <id>https://joo-pe.github.io/license-2</id>
-      <content type="html" xml:base="https://joo-pe.github.io/license-2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;licence 관련 다음과 같은 내용을 볼 수 있습니다. &lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-1&quot;&gt;기술사&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-2&quot;&gt;정보처리기사&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+      <content type="html" xml:base="https://joo-pe.github.io/license-2">&lt;p&gt;[ 출간 예정 ]&lt;/p&gt;
 
-&lt;p&gt;블록체인 합의알고리즘으로 진행된다.&lt;/p&gt;</content>
+&lt;p&gt;정보처리기사 - 한방에 합격하는 정보처리기사(정한방)-(2021) &lt;a href=&quot;https://cafe.naver.com/pass1try&quot;&gt;카페&lt;/a&gt; &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;시작합니다.&lt;/p&gt;</content>
 
       
       
@@ -64,7 +62,7 @@
       
 
       
-        <summary type="html">licence 관련 다음과 같은 내용을 볼 수 있습니다. 기술사 정보처리기사</summary>
+        <summary type="html">[ 출간 예정 ]</summary>
       
 
       
@@ -72,18 +70,91 @@
     </entry>
   
     <entry>
-      <title type="html">SDN</title>
-      <link href="https://joo-pe.github.io/license-1" rel="alternate" type="text/html" title="SDN" />
-      <published>2021-01-10T01:40:00+09:00</published>
-      <updated>2021-01-10T01:40:00+09:00</updated>
+      <title type="html">정보관리기술사 &amp;amp; 컴퓨터시스템응용기술사</title>
+      <link href="https://joo-pe.github.io/license-1" rel="alternate" type="text/html" title="정보관리기술사 &amp; 컴퓨터시스템응용기술사" />
+      <published>2021-02-02T01:40:00+09:00</published>
+      <updated>2021-02-02T01:40:00+09:00</updated>
       <id>https://joo-pe.github.io/license-1</id>
-      <content type="html" xml:base="https://joo-pe.github.io/license-1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;licence 관련 다음과 같은 내용을 볼 수 있습니다. &lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-1&quot;&gt;기술사&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./license-2&quot;&gt;정보처리기사&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+      <content type="html" xml:base="https://joo-pe.github.io/license-1">&lt;p&gt;KPC / ITPE 기술사 멘토를 진행하였고, &lt;br /&gt;
+현재는 오프라인 수업은 진행하지 않고, &lt;br /&gt;
+언텍트 비대면 기술사 학습을 지원해 드리고 있습니다.&lt;/p&gt;
 
-&lt;p&gt;github blog continue&lt;/p&gt;</content>
+&lt;p&gt;[기술사 학습 Slack 운영 중]&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;기술사 학습 프로젝트 이름&lt;/strong&gt; : &lt;strong&gt;Next&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;프로젝트&lt;/strong&gt; : 양방향 비대면 기술사 학습 커뮤니티 (정보관리기술사 &amp;amp; 컴퓨터시스템응용기술사)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;참여 기술사님&lt;/strong&gt; : 5분의 기술사님&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;대상&lt;/strong&gt; : 기술사 준비 중인 분들은 모두 참여 가능 &lt;br /&gt;
+      대신, 지속해서 해당 slack 으로 학습 참여가 가능하신 분 이어야 합니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;학습 지원&lt;/strong&gt; :&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;신트랜드에 맞춘 토픽리스트 제공&lt;/li&gt;
+      &lt;li&gt;일일셀테 답안 멘토링&lt;/li&gt;
+      &lt;li&gt;신규토픽 자료 공유&lt;/li&gt;
+      &lt;li&gt;일일 2교시형 목차잡기 자동 push bot 운영&lt;/li&gt;
+      &lt;li&gt;일일 토픽 암기 자동 push bot 운영&lt;/li&gt;
+      &lt;li&gt;비대면 주간 모의고사 100분 원격 시험 : 채점,멘토링 지원&lt;/li&gt;
+      &lt;li&gt;비대면 학습 토론 지원&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;비용&lt;/strong&gt; : 무료
+    &lt;ul&gt;
+      &lt;li&gt;(단, slack이 무료인 관계로 유료 기능 필요시 비용이 발생할 수 있습니다. &lt;br /&gt;
+향후 유료 컨텐츠가 있을 경우 비용이 논의 될 수 있습니다)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Slack 학습 시작일&lt;/strong&gt; : 2021년 3월 1일&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;학습 방식&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;온라인 비대면 시험&lt;/li&gt;
+      &lt;li&gt;slack 을 통한 365일 양방향 소통 스터디&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;이 글의 답글이나 메일 주소(joohyung1002@naver.com) 로 연락주시면 slack 에 초대해드리고 있습니다.
+해당 슬랙은 지식 공유 측면에서 개설된 비공식 커뮤니티 입니다.&lt;/p&gt;
+
+&lt;h4 id=&quot;기술사-멘토-유튜브&quot;&gt;기술사 멘토 유튜브&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCS63caBU8R3985Klba8zrzg&quot;&gt;joo-pe&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;비대면-기술사-학습-slack-운영-현황&quot;&gt;비대면 기술사 학습 slack 운영 현황&lt;/h4&gt;
+
+&lt;p&gt;ns-ngq9107.slack.com
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/built/images/license/image11.png&quot; width=&quot;600&quot; height=&quot;370&quot; /&gt;
+&lt;br /&gt;
+&lt;img src=&quot;../assets/built/images/license/image22.png&quot; width=&quot;600&quot; height=&quot;370&quot; /&gt;
+&lt;br /&gt;
+&lt;img src=&quot;../assets/built/images/license/image44.png&quot; width=&quot;600&quot; height=&quot;370&quot; /&gt;
+&lt;br /&gt;
+&lt;img src=&quot;../assets/built/images/license/image55.png&quot; width=&quot;600&quot; height=&quot;370&quot; /&gt;
+&lt;br /&gt;
+&lt;img src=&quot;../assets/built/images/license/image66.png&quot; width=&quot;600&quot; height=&quot;370&quot; /&gt;
+&lt;br /&gt;
+&lt;img src=&quot;../assets/built/images/license/image77.png&quot; width=&quot;600&quot; height=&quot;370&quot; /&gt;
+&lt;br /&gt;
+&lt;img src=&quot;../assets/built/images/license/image88.png&quot; width=&quot;600&quot; height=&quot;370&quot; /&gt;
+&lt;br /&gt;
+&lt;img src=&quot;../assets/built/images/license/image99.png&quot; width=&quot;600&quot; height=&quot;370&quot; /&gt;
+&lt;br /&gt;
+&lt;img src=&quot;../assets/built/images/license/image999.png&quot; width=&quot;600&quot; height=&quot;370&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;</content>
 
       
       
@@ -104,7 +175,7 @@
       
 
       
-        <summary type="html">licence 관련 다음과 같은 내용을 볼 수 있습니다. 기술사 정보처리기사</summary>
+        <summary type="html">KPC / ITPE 기술사 멘토를 진행하였고, 현재는 오프라인 수업은 진행하지 않고, 언텍트 비대면 기술사 학습을 지원해 드리고 있습니다.</summary>
       
 
       
