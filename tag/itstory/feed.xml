@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="https://joo-pe.github.io/tag/itstory/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://joo-pe.github.io/" rel="alternate" type="text/html" />
-  <updated>2021-02-07T22:44:25+09:00</updated>
+  <updated>2021-02-13T11:30:45+09:00</updated>
   <id>https://joo-pe.github.io/tag/itstory/feed.xml</id>
 
   
@@ -32,6 +32,86 @@
 
   
     <entry>
+      <title type="html">BlockChain</title>
+      <link href="https://joo-pe.github.io/blockchain-2" rel="alternate" type="text/html" title="BlockChain" />
+      <published>2021-02-12T01:40:00+09:00</published>
+      <updated>2021-02-12T01:40:00+09:00</updated>
+      <id>https://joo-pe.github.io/blockchain-2</id>
+      <content type="html" xml:base="https://joo-pe.github.io/blockchain-2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Blockchain core 를 알아보 &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-1&quot;&gt;bitcoin의 이해&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-2&quot;&gt;bitcoin의 통신 &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;블록체인 연습중 2&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Joo-pe</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="itstory" />
+      
+
+      
+        <summary type="html">Blockchain core 를 알아보 bitcoin의 이해 bitcoin의 통신</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">BlockChain</title>
+      <link href="https://joo-pe.github.io/blockchain-1" rel="alternate" type="text/html" title="BlockChain" />
+      <published>2021-02-10T01:40:00+09:00</published>
+      <updated>2021-02-10T01:40:00+09:00</updated>
+      <id>https://joo-pe.github.io/blockchain-1</id>
+      <content type="html" xml:base="https://joo-pe.github.io/blockchain-1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Blockchain core 를 알아보 &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-1&quot;&gt;bitcoin의 이해&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-2&quot;&gt;bitcoin의 통신 &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;블록체인 연습중&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Joo-pe</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="itstory" />
+      
+
+      
+        <summary type="html">Blockchain core 를 알아보 bitcoin의 이해 bitcoin의 통신</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">영상처리</title>
       <link href="https://joo-pe.github.io/itstory-2" rel="alternate" type="text/html" title="영상처리" />
       <published>2021-01-10T01:40:00+09:00</published>
@@ -43,7 +123,7 @@
     &lt;li&gt;&lt;a href=&quot;./itstory-2&quot;&gt;rest api &lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;github blog continue&lt;/p&gt;</content>
+&lt;p&gt;파이썬으로 배워보는 영상처리 준비중.&lt;/p&gt;</content>
 
       
       
@@ -72,18 +152,18 @@
     </entry>
   
     <entry>
-      <title type="html">SDN</title>
-      <link href="https://joo-pe.github.io/itstory-1" rel="alternate" type="text/html" title="SDN" />
+      <title type="html">BlockChain</title>
+      <link href="https://joo-pe.github.io/itstory-1" rel="alternate" type="text/html" title="BlockChain" />
       <published>2021-01-10T01:40:00+09:00</published>
       <updated>2021-01-10T01:40:00+09:00</updated>
       <id>https://joo-pe.github.io/itstory-1</id>
-      <content type="html" xml:base="https://joo-pe.github.io/itstory-1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;IT 전반 내용을 볼 수 있습니다. &lt;/span&gt;&lt;/p&gt;
+      <content type="html" xml:base="https://joo-pe.github.io/itstory-1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Blockchain core 를 알아보 &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./itstory-1&quot;&gt;Pexception 처리&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./itstory-2&quot;&gt;rest api &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-1&quot;&gt;bitcoin의 이해&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-2&quot;&gt;bitcoin의 통신 &lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;github blog continue2&lt;/p&gt;</content>
+&lt;p&gt;블록체인 코어를 알아보겠다.&lt;/p&gt;</content>
 
       
       
@@ -104,7 +184,7 @@
       
 
       
-        <summary type="html">IT 전반 내용을 볼 수 있습니다. Pexception 처리 rest api</summary>
+        <summary type="html">Blockchain core 를 알아보 bitcoin의 이해 bitcoin의 통신</summary>
       
 
       
