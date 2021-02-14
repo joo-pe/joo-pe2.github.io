@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="https://joo-pe.github.io/tag/license/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://joo-pe.github.io/" rel="alternate" type="text/html" />
-  <updated>2021-02-13T22:36:00+09:00</updated>
+  <updated>2021-02-14T13:53:53+09:00</updated>
   <id>https://joo-pe.github.io/tag/license/feed.xml</id>
 
   
@@ -32,12 +32,12 @@
 
   
     <entry>
-      <title type="html">정보처리기사</title>
-      <link href="https://joo-pe.github.io/license-2" rel="alternate" type="text/html" title="정보처리기사" />
+      <title type="html">정보처리기사-정한방</title>
+      <link href="https://joo-pe.github.io/license-2" rel="alternate" type="text/html" title="정보처리기사-정한방" />
       <published>2021-02-10T01:40:00+09:00</published>
       <updated>2021-02-10T01:40:00+09:00</updated>
       <id>https://joo-pe.github.io/license-2</id>
-      <content type="html" xml:base="https://joo-pe.github.io/license-2">&lt;p&gt;[ 출간 예정 ]&lt;/p&gt;
+      <content type="html" xml:base="https://joo-pe.github.io/license-2">&lt;p&gt;[ 출간 예정 2021.03]&lt;/p&gt;
 
 &lt;p&gt;정보처리기사 - 한방에 합격하는 정보처리기사(정한방)-(2021) &lt;a href=&quot;https://cafe.naver.com/pass1try&quot;&gt;카페&lt;/a&gt; &lt;br /&gt;&lt;/p&gt;
 
@@ -62,7 +62,7 @@
       
 
       
-        <summary type="html">[ 출간 예정 ]</summary>
+        <summary type="html">[ 출간 예정 2021.03]</summary>
       
 
       
@@ -108,16 +108,11 @@
       &lt;li&gt;비대면 학습 토론 지원&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;비용&lt;/strong&gt; : 무료
-    &lt;ul&gt;
-      &lt;li&gt;(단, slack이 무료인 관계로 유료 기능 필요시 비용이 발생할 수 있습니다. &lt;br /&gt;
-향후 유료 컨텐츠가 있을 경우 비용이 논의 될 수 있습니다)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;&lt;strong&gt;Slack 학습 시작일&lt;/strong&gt; : 2021년 3월 1일&lt;/p&gt;
   &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;학습 방식&lt;/strong&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;학습 방식&lt;/strong&gt;&lt;/p&gt;
     &lt;ul&gt;
       &lt;li&gt;온라인 비대면 시험&lt;/li&gt;
       &lt;li&gt;slack 을 통한 365일 양방향 소통 스터디&lt;/li&gt;

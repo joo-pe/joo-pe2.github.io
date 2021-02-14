@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="https://joo-pe.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://joo-pe.github.io/" rel="alternate" type="text/html" /><updated>2021-02-13T22:36:00+09:00</updated><id>https://joo-pe.github.io/</id><title type="html">Joo’s Blog</title><subtitle>Professional Engineer</subtitle><entry><title type="html">블록체인 기술은 죽지 않았다.</title><link href="https://joo-pe.github.io/blockchain-3" rel="alternate" type="text/html" title="블록체인 기술은 죽지 않았다." /><published>2021-02-12T19:40:00+09:00</published><updated>2021-02-12T19:40:00+09:00</updated><id>https://joo-pe.github.io/blockchain-3</id><content type="html" xml:base="https://joo-pe.github.io/blockchain-3">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Blockchain core 를 알아보자 &lt;/span&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="https://joo-pe.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://joo-pe.github.io/" rel="alternate" type="text/html" /><updated>2021-02-14T13:53:53+09:00</updated><id>https://joo-pe.github.io/</id><title type="html">Joo’s Blog</title><subtitle>Professional Engineer</subtitle><entry><title type="html">다시한번 블록체인</title><link href="https://joo-pe.github.io/blockchain-3" rel="alternate" type="text/html" title="다시한번 블록체인" /><published>2021-02-12T19:40:00+09:00</published><updated>2021-02-12T19:40:00+09:00</updated><id>https://joo-pe.github.io/blockchain-3</id><content type="html" xml:base="https://joo-pe.github.io/blockchain-3">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Blockchain core 를 알아보자 &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./blockchain-1&quot;&gt;Bitcoin 지갑&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./blockchain-2&quot;&gt;가상화폐의 변&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./blockchain-3&quot;&gt;블록체인 기술은 아직 죽지 않았다&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-2&quot;&gt;가상화폐의 변화&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-3&quot;&gt;다시한번 블록체인&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;블록체인-기술은-어떻게-바라봐야-하는가&quot;&gt;블록체인 기술은 어떻게 바라봐야 하는가?&lt;/h2&gt;
@@ -34,11 +34,11 @@ p2p가 대세가 될 가능성이 높다. 이 관점에서 블록체인의 성�
 &lt;h2 id=&quot;블록체인-기술의-성장-방향은&quot;&gt;블록체인 기술의 성장 방향은?&lt;/h2&gt;
 
 &lt;p&gt;이런 다양한 관점이 모여서 블록체인 기반으로 다양한 서비스를 만들어 보려고 시도가 되었다.
-어떤 관점으로 서비스를 만드냐에 따라 가능성이 점쳐지고 있다.&lt;/p&gt;</content><author><name>Joo-pe</name></author><category term="itstory" /><summary type="html">Blockchain core 를 알아보자 Bitcoin 지갑 가상화폐의 변 블록체인 기술은 아직 죽지 않았다</summary></entry><entry><title type="html">가상화폐의 변화 시작</title><link href="https://joo-pe.github.io/blockchain-2" rel="alternate" type="text/html" title="가상화폐의 변화 시작" /><published>2021-02-12T01:40:00+09:00</published><updated>2021-02-12T01:40:00+09:00</updated><id>https://joo-pe.github.io/blockchain-2</id><content type="html" xml:base="https://joo-pe.github.io/blockchain-2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Blockchain core 를 알아보자 &lt;/span&gt;&lt;/p&gt;
+어떤 관점으로 서비스를 만드냐에 따라 가능성이 점쳐지고 있다.&lt;/p&gt;</content><author><name>Joo-pe</name></author><category term="itstory" /><summary type="html">Blockchain core 를 알아보자 Bitcoin 지갑 가상화폐의 변화 다시한번 블록체인</summary></entry><entry><title type="html">가상화폐의 변화 시작</title><link href="https://joo-pe.github.io/blockchain-2" rel="alternate" type="text/html" title="가상화폐의 변화 시작" /><published>2021-02-12T01:40:00+09:00</published><updated>2021-02-12T01:40:00+09:00</updated><id>https://joo-pe.github.io/blockchain-2</id><content type="html" xml:base="https://joo-pe.github.io/blockchain-2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Blockchain core 를 알아보자 &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./blockchain-1&quot;&gt;Bitcoin 지갑&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./blockchain-2&quot;&gt;가상화폐의 변&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./blockchain-3&quot;&gt;블록체인 기술은 아직 죽지 않았다&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-2&quot;&gt;가상화폐의 변화&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-3&quot;&gt;다시한번 블록체인&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;특정금융거래정보의-보고-및-이용-등에-관한-법률특금법&quot;&gt;특정금융거래정보의 보고 및 이용 등에 관한 법률(특금법)&lt;/h3&gt;
@@ -63,15 +63,15 @@ p2p가 대세가 될 가능성이 높다. 이 관점에서 블록체인의 성�
   &lt;li&gt;블록체인의 인식이 바뀔 것이다.&lt;/li&gt;
   &lt;li&gt;적법한 가상화폐업자만 살아 남을 것이다.&lt;/li&gt;
   &lt;li&gt;사설 코인이 실제 가치가 인정되는 길이 열렸다.&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Joo-pe</name></author><category term="itstory" /><summary type="html">Blockchain core 를 알아보자 Bitcoin 지갑 가상화폐의 변 블록체인 기술은 아직 죽지 않았다</summary></entry><entry><title type="html">정보처리기사</title><link href="https://joo-pe.github.io/license-2" rel="alternate" type="text/html" title="정보처리기사" /><published>2021-02-10T01:40:00+09:00</published><updated>2021-02-10T01:40:00+09:00</updated><id>https://joo-pe.github.io/license-2</id><content type="html" xml:base="https://joo-pe.github.io/license-2">&lt;p&gt;[ 출간 예정 ]&lt;/p&gt;
+&lt;/ol&gt;</content><author><name>Joo-pe</name></author><category term="itstory" /><summary type="html">Blockchain core 를 알아보자 Bitcoin 지갑 가상화폐의 변화 다시한번 블록체인</summary></entry><entry><title type="html">정보처리기사-정한방</title><link href="https://joo-pe.github.io/license-2" rel="alternate" type="text/html" title="정보처리기사-정한방" /><published>2021-02-10T01:40:00+09:00</published><updated>2021-02-10T01:40:00+09:00</updated><id>https://joo-pe.github.io/license-2</id><content type="html" xml:base="https://joo-pe.github.io/license-2">&lt;p&gt;[ 출간 예정 2021.03]&lt;/p&gt;
 
 &lt;p&gt;정보처리기사 - 한방에 합격하는 정보처리기사(정한방)-(2021) &lt;a href=&quot;https://cafe.naver.com/pass1try&quot;&gt;카페&lt;/a&gt; &lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;시작합니다.&lt;/p&gt;</content><author><name>Joo-pe</name></author><category term="license" /><summary type="html">[ 출간 예정 ]</summary></entry><entry><title type="html">Bitcoin 지갑</title><link href="https://joo-pe.github.io/blockchain-1" rel="alternate" type="text/html" title="Bitcoin 지갑" /><published>2021-02-10T01:40:00+09:00</published><updated>2021-02-10T01:40:00+09:00</updated><id>https://joo-pe.github.io/blockchain-1</id><content type="html" xml:base="https://joo-pe.github.io/blockchain-1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Blockchain core 를 알아보자 &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;시작합니다.&lt;/p&gt;</content><author><name>Joo-pe</name></author><category term="license" /><summary type="html">[ 출간 예정 2021.03]</summary></entry><entry><title type="html">Bitcoin 지갑</title><link href="https://joo-pe.github.io/blockchain-1" rel="alternate" type="text/html" title="Bitcoin 지갑" /><published>2021-02-10T01:40:00+09:00</published><updated>2021-02-10T01:40:00+09:00</updated><id>https://joo-pe.github.io/blockchain-1</id><content type="html" xml:base="https://joo-pe.github.io/blockchain-1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Blockchain core 를 알아보자 &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./blockchain-1&quot;&gt;Bitcoin 지갑&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./blockchain-2&quot;&gt;가상화폐의 변&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./blockchain-3&quot;&gt;블록체인 기술은 아직 죽지 않았다&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-2&quot;&gt;가상화폐의 변화&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./blockchain-3&quot;&gt;다시한번 블록체인&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;bitcoin-참고-소스&quot;&gt;bitcoin 참고 소스&lt;/h3&gt;
@@ -92,7 +92,31 @@ Wallet :  저장할 수 ECKey의 및 기타 데이터를.
 PeerGroup : 네트워크 연결을 관리 하는 인스턴스입니다.
 BlockChain : 비트 코인을 작동시키는 공유 글로벌 데이터 구조를 관리 하는 인스턴스.
 BlockStore : 디스크와 같은 어딘가에 블록 체인 데이터 구조를 유지 하는 인스턴스.
-WalletEventListener : 지갑 이벤트를 수신하는 구현.&lt;/p&gt;</content><author><name>Joo-pe</name></author><category term="itstory" /><summary type="html">Blockchain core 를 알아보자 Bitcoin 지갑 가상화폐의 변 블록체인 기술은 아직 죽지 않았다</summary></entry><entry><title type="html">정보관리기술사 &amp;amp; 컴퓨터시스템응용기술사</title><link href="https://joo-pe.github.io/license-1" rel="alternate" type="text/html" title="정보관리기술사 &amp; 컴퓨터시스템응용기술사" /><published>2021-02-02T01:40:00+09:00</published><updated>2021-02-02T01:40:00+09:00</updated><id>https://joo-pe.github.io/license-1</id><content type="html" xml:base="https://joo-pe.github.io/license-1">&lt;p&gt;KPC / ITPE 기술사 멘토를 진행하였고, &lt;br /&gt;
+WalletEventListener : 지갑 이벤트를 수신하는 구현.&lt;/p&gt;
+
+&lt;h2 id=&quot;2-wallet-실행시키기&quot;&gt;2. wallet 실행시키기&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;JavaFX 를 다운 받는다.
+intelliJ 내 Edit Configurations에 아래를 추가한다.
+lib는 자신의 lib로 설정하여 준다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;--module-path /Users/jaden/Downloads/javafx-sdk-11.0.2/lib --add-modules=javafx.controls,javafx.fxml
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;wallettemplate 모듈에서 Main 클래스를 실행시킨다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/built/images/blockchain/blockchain-4.png&quot; alt=&quot;img.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;가 실행되는 것을 볼 수 있다.
+기본은 MainNet으로 접속된다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;NetworkParameters 을 참고하여 메인넷을 바꾸어준다.&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Joo-pe</name></author><category term="itstory" /><summary type="html">Blockchain core 를 알아보자 Bitcoin 지갑 가상화폐의 변화 다시한번 블록체인</summary></entry><entry><title type="html">정보관리기술사 &amp;amp; 컴퓨터시스템응용기술사</title><link href="https://joo-pe.github.io/license-1" rel="alternate" type="text/html" title="정보관리기술사 &amp; 컴퓨터시스템응용기술사" /><published>2021-02-02T01:40:00+09:00</published><updated>2021-02-02T01:40:00+09:00</updated><id>https://joo-pe.github.io/license-1</id><content type="html" xml:base="https://joo-pe.github.io/license-1">&lt;p&gt;KPC / ITPE 기술사 멘토를 진행하였고, &lt;br /&gt;
 현재는 오프라인 수업은 진행하지 않고, &lt;br /&gt;
 언텍트 비대면 기술사 학습을 지원해 드리고 있습니다.&lt;/p&gt;
 
@@ -125,16 +149,11 @@ WalletEventListener : 지갑 이벤트를 수신하는 구현.&lt;/p&gt;</conten
       &lt;li&gt;비대면 학습 토론 지원&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;비용&lt;/strong&gt; : 무료
-    &lt;ul&gt;
-      &lt;li&gt;(단, slack이 무료인 관계로 유료 기능 필요시 비용이 발생할 수 있습니다. &lt;br /&gt;
-향후 유료 컨텐츠가 있을 경우 비용이 논의 될 수 있습니다)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;&lt;strong&gt;Slack 학습 시작일&lt;/strong&gt; : 2021년 3월 1일&lt;/p&gt;
   &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;학습 방식&lt;/strong&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;학습 방식&lt;/strong&gt;&lt;/p&gt;
     &lt;ul&gt;
       &lt;li&gt;온라인 비대면 시험&lt;/li&gt;
       &lt;li&gt;slack 을 통한 365일 양방향 소통 스터디&lt;/li&gt;
