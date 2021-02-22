@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="https://joo-pe.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://joo-pe.github.io/" rel="alternate" type="text/html" /><updated>2021-02-22T20:13:12+09:00</updated><id>https://joo-pe.github.io/</id><title type="html">Joo’s Blog</title><subtitle>Professional Engineer</subtitle><entry><title type="html">다시한번 블록체인</title><link href="https://joo-pe.github.io/blockchain-3" rel="alternate" type="text/html" title="다시한번 블록체인" /><published>2021-02-12T19:40:00+09:00</published><updated>2021-02-12T19:40:00+09:00</updated><id>https://joo-pe.github.io/blockchain-3</id><content type="html" xml:base="https://joo-pe.github.io/blockchain-3">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Blockchain core 를 알아보자 &lt;/span&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="https://joo-pe.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://joo-pe.github.io/" rel="alternate" type="text/html" /><updated>2021-02-22T20:30:38+09:00</updated><id>https://joo-pe.github.io/</id><title type="html">Joo’s Blog</title><subtitle>Professional Engineer</subtitle><entry><title type="html">다시한번 블록체인</title><link href="https://joo-pe.github.io/blockchain-3" rel="alternate" type="text/html" title="다시한번 블록체인" /><published>2021-02-12T19:40:00+09:00</published><updated>2021-02-12T19:40:00+09:00</updated><id>https://joo-pe.github.io/blockchain-3</id><content type="html" xml:base="https://joo-pe.github.io/blockchain-3">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Blockchain core 를 알아보자 &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./blockchain-1&quot;&gt;Bitcoin 지갑&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./blockchain-2&quot;&gt;가상화폐의 변화&lt;/a&gt;&lt;/li&gt;
@@ -180,12 +180,22 @@ lib는 자신의 lib로 설정하여 준다.&lt;/li&gt;
 &lt;img src=&quot;../assets/built/images/license/image99.png&quot; width=&quot;600&quot; height=&quot;370&quot; /&gt;
 &lt;br /&gt;
 &lt;img src=&quot;../assets/built/images/license/image999.png&quot; width=&quot;600&quot; height=&quot;370&quot; /&gt;
-&lt;br /&gt;&lt;/p&gt;</content><author><name>Joo-pe</name></author><category term="license" /><summary type="html">KPC / ITPE 기술사 멘토를 진행하였고, 현재는 오프라인 수업은 진행하지 않고, 언텍트 비대면 기술사 학습을 지원해 드리고 있습니다.</summary></entry><entry><title type="html">kakao api 연동</title><link href="https://joo-pe.github.io/develop-5" rel="alternate" type="text/html" title="kakao api 연동" /><published>2021-01-29T01:40:00+09:00</published><updated>2021-01-29T01:40:00+09:00</updated><id>https://joo-pe.github.io/develop-5</id><content type="html" xml:base="https://joo-pe.github.io/develop-5">&lt;h3 id=&quot;ncp-kakao-api-연동&quot;&gt;NCP kakao api 연동&lt;/h3&gt;
+&lt;br /&gt;&lt;/p&gt;</content><author><name>Joo-pe</name></author><category term="license" /><summary type="html">KPC / ITPE 기술사 멘토를 진행하였고, 현재는 오프라인 수업은 진행하지 않고, 언텍트 비대면 기술사 학습을 지원해 드리고 있습니다.</summary></entry><entry><title type="html">Optional 클래스</title><link href="https://joo-pe.github.io/develop-5" rel="alternate" type="text/html" title="Optional 클래스" /><published>2021-01-29T01:40:00+09:00</published><updated>2021-01-29T01:40:00+09:00</updated><id>https://joo-pe.github.io/develop-5</id><content type="html" xml:base="https://joo-pe.github.io/develop-5">&lt;h3 id=&quot;optional-클래스-사용-이유&quot;&gt;Optional 클래스 사용 이유&lt;/h3&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;인증키를 받는다.&lt;/li&gt;
-  &lt;li&gt;헤더에 인증키를 넣고 요청을 보내면 알림톡이 당사자에게 발송된다.&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Joo-pe</name></author><category term="develop" /><summary type="html">NCP kakao api 연동</summary></entry><entry><title type="html">객체지향 쿼리</title><link href="https://joo-pe.github.io/develop-4" rel="alternate" type="text/html" title="객체지향 쿼리" /><published>2021-01-29T01:40:00+09:00</published><updated>2021-01-29T01:40:00+09:00</updated><id>https://joo-pe.github.io/develop-4</id><content type="html" xml:base="https://joo-pe.github.io/develop-4">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;JPA 관련 다음과 같은 내용을 볼 수 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;런타임때는 알 수 없는 null 에 대한 처리를 할 수 있다.
+null 이 있어도 Optional 로 감싸 놓을 수 있어서 안전하다고 볼 수 있다.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Optional.empty(); 
+Optional.of();
+Optaionl.ofNullable();
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;optional-적용-후-어떻게-null-체크를-해야하나요&quot;&gt;“Optional 적용 후 어떻게 null 체크를 해야하나요?”&lt;/h3&gt;
+&lt;p&gt;“null 체크를 하실 필요가 없으시니 하시면 안 됩니다.”&lt;/p&gt;
+
+&lt;p&gt;https://www.daleseo.com/java8-optional-after/&lt;/p&gt;
+
+&lt;p&gt;참 정리를 잘 해두셨네요.&lt;/p&gt;</content><author><name>Joo-pe</name></author><category term="develop" /><summary type="html">Optional 클래스 사용 이유</summary></entry><entry><title type="html">객체지향 쿼리</title><link href="https://joo-pe.github.io/develop-4" rel="alternate" type="text/html" title="객체지향 쿼리" /><published>2021-01-29T01:40:00+09:00</published><updated>2021-01-29T01:40:00+09:00</updated><id>https://joo-pe.github.io/develop-4</id><content type="html" xml:base="https://joo-pe.github.io/develop-4">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;JPA 관련 다음과 같은 내용을 볼 수 있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./develop-1&quot;&gt;왜 JPA 인가?&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./develop-2&quot;&gt;JPA 연관관계가 왜 중요한가? &lt;/a&gt;&lt;/li&gt;
