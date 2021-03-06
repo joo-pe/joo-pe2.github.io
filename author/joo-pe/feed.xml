@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="https://joo-pe.github.io/author/joo-pe/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://joo-pe.github.io/" rel="alternate" type="text/html" />
-  <updated>2021-02-22T20:30:38+09:00</updated>
+  <updated>2021-03-06T20:12:45+09:00</updated>
   <id>https://joo-pe.github.io/author/joo-pe/feed.xml</id>
 
   
@@ -30,6 +30,97 @@
   
   
 
+  
+    <entry>
+      <title type="html">RDS 시간 설정 문제</title>
+      <link href="https://joo-pe.github.io/develop-7" rel="alternate" type="text/html" title="RDS 시간 설정 문제" />
+      <published>2021-02-23T01:40:00+09:00</published>
+      <updated>2021-02-23T01:40:00+09:00</updated>
+      <id>https://joo-pe.github.io/develop-7</id>
+      <content type="html" xml:base="https://joo-pe.github.io/develop-7">&lt;p&gt;https://aws.amazon.com/ko/premiumsupport/knowledge-center/rds-change-time-zone/&lt;/p&gt;
+
+&lt;p&gt;데이터베이스 설정에서는 UTC 를 선호한다. 
+KTS 로 설정하고 싶다면 어플리케이션 단에서 변경하기를 추천한다고 쓰여져 있다.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Joo-pe</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="develop" />
+      
+
+      
+        <summary type="html">https://aws.amazon.com/ko/premiumsupport/knowledge-center/rds-change-time-zone/</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">동시성 문</title>
+      <link href="https://joo-pe.github.io/develop-6" rel="alternate" type="text/html" title="동시성 문" />
+      <published>2021-02-23T01:40:00+09:00</published>
+      <updated>2021-02-23T01:40:00+09:00</updated>
+      <id>https://joo-pe.github.io/develop-6</id>
+      <content type="html" xml:base="https://joo-pe.github.io/develop-6">&lt;h3 id=&quot;동시성-문제&quot;&gt;동시성 문제&lt;/h3&gt;
+
+&lt;p&gt;두 개 이상의 세션이 공통된 자원에 대해 모두 읽고 쓰는 작업을 하려고 하는 경우 발생할 수 있는 문제&lt;/p&gt;
+
+&lt;h2 id=&quot;일관성-없는-읽기&quot;&gt;일관성 없는 읽기&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;img.png&quot; alt=&quot;img.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;손실되는-업데이트&quot;&gt;손실되는 업데이트&lt;/h2&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Optional.empty(); 
+Optional.of();
+Optaionl.ofNullable();
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;optional-적용-후-어떻게-null-체크를-해야하나요&quot;&gt;“Optional 적용 후 어떻게 null 체크를 해야하나요?”&lt;/h3&gt;
+&lt;p&gt;“null 체크를 하실 필요가 없으시니 하시면 안 됩니다.”&lt;/p&gt;
+
+&lt;p&gt;https://www.daleseo.com/java8-optional-after/&lt;/p&gt;
+
+&lt;p&gt;참 정리를 잘 해두셨네요.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Joo-pe</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="develop" />
+      
+
+      
+        <summary type="html">동시성 문제</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">다시한번 블록체인</title>
@@ -384,65 +475,6 @@ lib는 자신의 lib로 설정하여 준다.&lt;/li&gt;
     </entry>
   
     <entry>
-      <title type="html">객체지향 쿼리</title>
-      <link href="https://joo-pe.github.io/develop-4" rel="alternate" type="text/html" title="객체지향 쿼리" />
-      <published>2021-01-29T01:40:00+09:00</published>
-      <updated>2021-01-29T01:40:00+09:00</updated>
-      <id>https://joo-pe.github.io/develop-4</id>
-      <content type="html" xml:base="https://joo-pe.github.io/develop-4">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;JPA 관련 다음과 같은 내용을 볼 수 있습니다. &lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./develop-1&quot;&gt;왜 JPA 인가?&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./develop-2&quot;&gt;JPA 연관관계가 왜 중요한가? &lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./develop-3&quot;&gt;JPA 프록시 &lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./develop-4&quot;&gt;객체지향 쿼리 &lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;객체지향-쿼리&quot;&gt;객체지향 쿼리&lt;/h3&gt;
-
-&lt;p&gt;데이터가 많은 경우 모든 데이터를 한번에 가져와야 하거나, 쿼리의 복잡성이 생기는 경우가 있다.
-이렇때는 ORM 으로 객체와 테이블을 모두 연관지어 코드를 작성하기 보다는 객체지향 쿼리를 이용하는 방법이 있다.&lt;/p&gt;
-
-&lt;p&gt;테이블로의 쿼리가 아닌 객체에 전달하는 쿼리로 생각하면된다.&lt;/p&gt;
-
-&lt;p&gt;JPQL을 사용하면 JPA는 이 JPQ을 분석한 다음 적절한 SQL을 만들어 데이터베이스를 조회한다.&lt;/p&gt;
-
-&lt;h4 id=&quot;jpql&quot;&gt;JPQL&lt;/h4&gt;
-&lt;p&gt;JPQ을 사용하는 방법에는 Criteria 쿼리가 있다.
-Criteria 쿼리는 JPQL을 편하게 작성하도록 도와주는 API, 빌더 클래스 모음이다.
-Criteria 쿼리의 장점은 문자가 아닌 query.select(m),where(…) 처럼 프로그래밍 코드로 JPQL을 작성할 수 있다는 장점이 있다.
-하지만 Criteria 가 가진 장점은 많지만 너무 복잡하고, 한눈에 보이지도 않는다.&lt;/p&gt;
-
-&lt;p&gt;그래서 많이 사용하는 것이 QueryDSL 이다.&lt;/p&gt;
-
-&lt;h4 id=&quot;querydsl&quot;&gt;QueryDSL&lt;/h4&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Joo-pe</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="develop" />
-      
-
-      
-        <summary type="html">JPA 관련 다음과 같은 내용을 볼 수 있습니다. 왜 JPA 인가? JPA 연관관계가 왜 중요한가? JPA 프록시 객체지향 쿼리</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
       <title type="html">Optional 클래스</title>
       <link href="https://joo-pe.github.io/develop-5" rel="alternate" type="text/html" title="Optional 클래스" />
       <published>2021-01-29T01:40:00+09:00</published>
@@ -492,12 +524,12 @@ Optaionl.ofNullable();
     </entry>
   
     <entry>
-      <title type="html">JPA 연관관계가 왜 중요한가?</title>
-      <link href="https://joo-pe.github.io/develop-2" rel="alternate" type="text/html" title="JPA 연관관계가 왜 중요한가?" />
-      <published>2021-01-26T01:40:00+09:00</published>
-      <updated>2021-01-26T01:40:00+09:00</updated>
-      <id>https://joo-pe.github.io/develop-2</id>
-      <content type="html" xml:base="https://joo-pe.github.io/develop-2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;JPA 관련 다음과 같은 내용을 볼 수 있습니다. &lt;/span&gt;&lt;/p&gt;
+      <title type="html">객체지향 쿼리</title>
+      <link href="https://joo-pe.github.io/develop-4" rel="alternate" type="text/html" title="객체지향 쿼리" />
+      <published>2021-01-29T01:40:00+09:00</published>
+      <updated>2021-01-29T01:40:00+09:00</updated>
+      <id>https://joo-pe.github.io/develop-4</id>
+      <content type="html" xml:base="https://joo-pe.github.io/develop-4">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;JPA 관련 다음과 같은 내용을 볼 수 있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./develop-1&quot;&gt;왜 JPA 인가?&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./develop-2&quot;&gt;JPA 연관관계가 왜 중요한가? &lt;/a&gt;&lt;/li&gt;
@@ -505,50 +537,24 @@ Optaionl.ofNullable();
     &lt;li&gt;&lt;a href=&quot;./develop-4&quot;&gt;객체지향 쿼리 &lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;JPA의 연관관계&lt;/p&gt;
+&lt;h3 id=&quot;객체지향-쿼리&quot;&gt;객체지향 쿼리&lt;/h3&gt;
 
-&lt;h2 id=&quot;연관관계&quot;&gt;연관관계&lt;/h2&gt;
+&lt;p&gt;데이터가 많은 경우 모든 데이터를 한번에 가져와야 하거나, 쿼리의 복잡성이 생기는 경우가 있다.
+이렇때는 ORM 으로 객체와 테이블을 모두 연관지어 코드를 작성하기 보다는 객체지향 쿼리를 이용하는 방법이 있다.&lt;/p&gt;
 
-&lt;p&gt;데이터베이스와 어플리케이션 사이에 메모리 캐쉬를 이용하여 테이블을 객체지향적으로 처리할 수 있도록 하는게 JPA의 핵심이다.
-테이블들을 객체로 보는 것이 ORM의 핵심이다. 각각의 테이블을 객체로 보고, 사용되는 객체 연관관계도 객체지향적으로 연결시켜 놓으면 JPA의 장점을 활용할 수 있다.&lt;/p&gt;
+&lt;p&gt;테이블로의 쿼리가 아닌 객체에 전달하는 쿼리로 생각하면된다.&lt;/p&gt;
 
-&lt;p&gt;엔티티의 관계에는 1:N, N:1, M:N 의 관계로 볼 수 있다.
-연관관계에 대해 객체화 시켜놓은 테이블이 서로 참조할 수 있도록 클래스를 구현할 때 선언 해 놓는 것이 필요하다.&lt;/p&gt;
+&lt;p&gt;JPQL을 사용하면 JPA는 이 JPQ을 분석한 다음 적절한 SQL을 만들어 데이터베이스를 조회한다.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;팀과 회원이 있다고 하면 *1:N* 의 관계가 된다.&lt;/em&gt;&lt;/p&gt;
+&lt;h4 id=&quot;jpql&quot;&gt;JPQL&lt;/h4&gt;
+&lt;p&gt;JPQ을 사용하는 방법에는 Criteria 쿼리가 있다.
+Criteria 쿼리는 JPQL을 편하게 작성하도록 도와주는 API, 빌더 클래스 모음이다.
+Criteria 쿼리의 장점은 문자가 아닌 query.select(m),where(…) 처럼 프로그래밍 코드로 JPQL을 작성할 수 있다는 장점이 있다.
+하지만 Criteria 가 가진 장점은 많지만 너무 복잡하고, 한눈에 보이지도 않는다.&lt;/p&gt;
 
-&lt;p&gt;이 경우를 클래스로 구현하게 되면&lt;/p&gt;
+&lt;p&gt;그래서 많이 사용하는 것이 QueryDSL 이다.&lt;/p&gt;
 
-&lt;p&gt;팀에 속한 여러 회원을 구현할 수 있으므로, 회원에서 팀을 포함하고 있어야 한다.
-이렇게되려면 &lt;em&gt;단방향&lt;/em&gt; 이 되어야 한다.
-팀은 여러 객체에서 사용될 수 있기 때문에 의존적이지 않고, 여러 팀에 속할 수 있는 회원 객체에서 팀을 선언한다.
-따라서 팀에서는 회원을 선언하지 않기 때문에 회원에 대해 알지 못한다.&lt;/p&gt;
-
-&lt;p&gt;Team을 참조하고 있는 member 테이블에서 다음과 같이 선언한다.&lt;/p&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nd&quot;&gt;@ManyToOne&lt;/span&gt;
-&lt;span class=&quot;nd&quot;&gt;@JoinColumn&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;TEAM_ID&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Team&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;team&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;주인이란&quot;&gt;주인이란?&lt;/h3&gt;
-
-&lt;p&gt;외래키를 가지고 있는 테이블이 주인이 있다. 다대일 이라고 하면 다에서 외래키를 관리하고 주인이라고 한다.
-주인을 명하는 이유는 키를 한곳에서만 관리하자는 측면을 위해서 있는 개념이다.
-주인인 곳에서는 mappedBy 속성을 사용하지 않는다.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;assets/built/images/develop/develop-3.png&quot; alt=&quot;img.png2&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;방향성에는 단방향과 양방향이 있는데, 단방향은 한쪽 참조라면 보고,
-양방향이 헤갈릴 수도 있는데
-데이터베이스 상에서는 방향이 없다. 외래키 하나만 설정하면 된다. 
-&lt;strong&gt;ORM 에서는 참조 여부를 방향이라고 일컫는다.&lt;/strong&gt;
-양쪽에서 모두 참조하면 양방향이 되는 것이다.&lt;/p&gt;
-
-&lt;p&gt;일대다 관계에서는 하나 이상을 참조할 수 있으므로 컬렉션인 Collection, List, Set,Map 중 하나를 사용할 수 있다.&lt;/p&gt;
-
-&lt;p&gt;일대다 단방향 매핑 보다는 다대일 양방향 매핑이 좋다.
-일대다 단방향 매핑인경우 본인 테이블에 외래키가 없어 update 등의 문제가 발생할 수 있다.&lt;/p&gt;</content>
+&lt;h4 id=&quot;querydsl&quot;&gt;QueryDSL&lt;/h4&gt;</content>
 
       
       
@@ -628,101 +634,6 @@ Optaionl.ofNullable();
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;으로 할 수 있다.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Joo-pe</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="develop" />
-      
-
-      
-        <summary type="html">JPA 관련 다음과 같은 내용을 볼 수 있습니다. 왜 JPA 인가? JPA 연관관계가 왜 중요한가? JPA 프록시 객체지향 쿼리</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">왜 JPA 인가</title>
-      <link href="https://joo-pe.github.io/develop-1" rel="alternate" type="text/html" title="왜 JPA 인가" />
-      <published>2021-01-25T17:10:00+09:00</published>
-      <updated>2021-01-25T17:10:00+09:00</updated>
-      <id>https://joo-pe.github.io/develop-1</id>
-      <content type="html" xml:base="https://joo-pe.github.io/develop-1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;JPA 관련 다음과 같은 내용을 볼 수 있습니다. &lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./develop-1&quot;&gt;왜 JPA 인가?&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./develop-2&quot;&gt;JPA 연관관계가 왜 중요한가? &lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./develop-3&quot;&gt;JPA 프록시 &lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./develop-4&quot;&gt;객체지향 쿼리 &lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;jpajava-persistence-api&quot;&gt;JPA(Java Persistence API)&lt;/h2&gt;
-
-&lt;p&gt;왜 요즘 JPA를 선호할까?
-ORM(object-Relational Mapping) 이라는 개념은 내 기억에는 15년 전까지 거슬러 올라갔어도. 있었던 개념이었던거 같다.
-초창기에는 hibernate 라는 기술이 있었다. 참 신선했던 기억이 있었다. 
-&lt;strong&gt;클래스와 DB와 엔티티를 맞춰서 코딩을 한다&lt;/strong&gt;
-하지만 RDBMS의 다양한 쿼리를 자유자재로 사용할 수 없다는건 단점이다.
-무늬만 좋은 기술은 사용할수 없는 법이다. 남들이 쓴다고 나도 JPA를 써야지 라고만 시작하면 한계에 부딪힐 것이다.
-왜 JPA를 사용해야 하는지 관점으로 한번 접근을 해보겠다.&lt;/p&gt;
-
-&lt;h3 id=&quot;jpa의-사상&quot;&gt;JPA의 사상&lt;/h3&gt;
-
-&lt;p&gt;객체와 데이터베이스 패러다임의 불일치를 해결하기 위해서 등장한 프레임워크이다.
-JPA는 자바 ORM 기술에 대한 API 표준 명세이다.&lt;/p&gt;
-
-&lt;h3 id=&quot;db-조작을-신뢰하면서-편리한-어플리케이션이-필요하다&quot;&gt;DB 조작을 신뢰하면서 편리한 어플리케이션이 필요하다.&lt;/h3&gt;
-
-&lt;p&gt;어플리케이션에서 DB 연결할 때 사용되는 프레임워크 중 하나가 JPA 이다.
-기존 JDBC 에서 이런 DB연결 프레임워크를 사용하는 이유를 알아야 한다.
-어떤 장점이 있어야 할 것이다. 
-어플리케이션에서 데이터베이스 조작할 때 다음이 중요한 사항 일 것이다.&lt;/p&gt;
-
-&lt;p&gt;&lt;u&gt;데이터 무결성&lt;/u&gt;  , &lt;u&gt;성능&lt;/u&gt; ,  &lt;u&gt;데이터 독립성&lt;/u&gt; , &lt;u&gt;데이터조작&lt;/u&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;일단-개발의-편의성의-jpa&quot;&gt;일단 개발의 편의성의 JPA&lt;/h3&gt;
-
-&lt;p&gt;우선 개발하는 입장에서는 코드의 가독성 및 생산성을 중요시 할 것이다.
-그런 측면에서는 create, insert 같은 지루하고 반복적인 일을 JPA가 대신 해주게 되어 많은 장점이 있다.
-유지보수 측면에서도 복잡하지 않은 쿼리라고 하면 일부분만 수정하면 되기 때문에 장점이 많다.&lt;/p&gt;
-
-&lt;h3 id=&quot;성능-측면의-jpa&quot;&gt;성능 측면의 JPA&lt;/h3&gt;
-&lt;p&gt;JPA는 지연로딩을 지원한다.
-한 테이블을 조회하고 또 세부적인 조회를 해야 한다고 했을 때 지연로딩을 할 수 있다.
-아래는 전체 member를 조회하고, 그중 연관된 주문을 찾는 방식의 예제 코드이다.&lt;/p&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;Member&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;member&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jpa&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;find&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Member&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;memberId&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;Order&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;order&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;member&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getOrder&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;order&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getOrderDate&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;다음 생각해볼 것은 JPA는 내부적으로 데이터베이스와 어플리케이션 사이에 중간계층이 있다는 점이다.
-같은 조회를 할 때 한번만 조회할 수 있다는 장점이 있다.&lt;/p&gt;
-
-&lt;h3 id=&quot;데이터-독립성-의-jpa&quot;&gt;데이터 독립성 의 JPA&lt;/h3&gt;
-
-&lt;p&gt;데이터 독립성은 개념적, 논리적, 물리적으로 데이터가 분리되어야 한다는 속성이다.
-JPA를 사용하면 일단 어플리케이션에서 자유자재로 다양한 DBMS로 변경하여 붙힐 수 있다.
-이런 측면에서 이야기 해볼수 있지 않을까&lt;/p&gt;</content>
 
       
       
