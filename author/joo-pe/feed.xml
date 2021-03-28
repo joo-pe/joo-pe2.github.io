@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="https://joo-pe.github.io/author/joo-pe/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://joo-pe.github.io/" rel="alternate" type="text/html" />
-  <updated>2021-03-28T11:32:41+09:00</updated>
+  <updated>2021-03-28T12:28:38+09:00</updated>
   <id>https://joo-pe.github.io/author/joo-pe/feed.xml</id>
 
   
@@ -34,8 +34,8 @@
     <entry>
       <title type="html">RDS 시간 설정 문제</title>
       <link href="https://joo-pe.github.io/develop-7" rel="alternate" type="text/html" title="RDS 시간 설정 문제" />
-      <published>2021-02-23T01:40:00+09:00</published>
-      <updated>2021-02-23T01:40:00+09:00</updated>
+      <published>2021-03-27T21:00:00+09:00</published>
+      <updated>2021-03-27T21:00:00+09:00</updated>
       <id>https://joo-pe.github.io/develop-7</id>
       <content type="html" xml:base="https://joo-pe.github.io/develop-7">&lt;p&gt;https://aws.amazon.com/ko/premiumsupport/knowledge-center/rds-change-time-zone/&lt;/p&gt;
 
@@ -69,8 +69,8 @@ KTS 로 설정하고 싶다면 어플리케이션 단에서 변경하기를 추�
     </entry>
   
     <entry>
-      <title type="html">동시성 문</title>
-      <link href="https://joo-pe.github.io/develop-6" rel="alternate" type="text/html" title="동시성 문" />
+      <title type="html">동시성 문제</title>
+      <link href="https://joo-pe.github.io/develop-6" rel="alternate" type="text/html" title="동시성 문제" />
       <published>2021-02-23T01:40:00+09:00</published>
       <updated>2021-02-23T01:40:00+09:00</updated>
       <id>https://joo-pe.github.io/develop-6</id>
